@@ -1,0 +1,38 @@
+{
+    "__comment__" : "Default layout. Don't edit here. Work inside UserLayout",
+    "toolbar": {
+        "__comment__": "top left right bottom sidetop",
+        "location": "sidetop",
+        "show": true,
+        "name" : "mainToolBar"
+    },
+    
+    "explorer": {
+        "__comment__": "top left right bottom",
+        "location": "left",
+        "show": true,
+        "name" : "leftContainer"
+    },
+    
+    "tabbar": {
+        "__comment__": "top left right bottom",
+        "location": "top",
+        "show": true,
+        "name" : "fileBaseEditor"
+    },
+    
+    "statusbar": {
+        "__comment__": "//bottom",
+        "location": "bottom",
+        "show": false,
+        "name" : "statusBar"
+    },
+    
+    "outputwindow": {
+        "__comment__": " //top left right bottom",
+        "location": "bottom",
+        "show": false,
+        "name" : "outputTabWidget"
+        
+    }
+}

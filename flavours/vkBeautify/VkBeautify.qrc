@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>js/interface.js</file>
+        <file>js/vkbeautify.js</file>
+    </qresource>
+</RCC>

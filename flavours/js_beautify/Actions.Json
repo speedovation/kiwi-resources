@@ -1,0 +1,47 @@
+{
+	"name": "JsBeautifyInterface",
+	"title": "Js Beautify",
+	"description": "jsBeautify for web developers",
+	"version": "1",
+	"parentMenu": "menuFlavours",
+	"menuName": "Js Beautify",
+	"actions": [
+		{
+		"name": "beautifyHtml",
+		"title": "Beautify Html",
+		"parentMenu": "",
+		"shortcutKeys": "Ctrl+H",
+		"type": "js",
+		"functionName" : "beautifyHtml",
+		"icons": {}
+		},
+		{
+		"name": "beautifyCss",
+		"title": "Beautify Css",
+		"parentMenu": "",
+		"shortcutKeys": "Ctrl+Shift+H",
+		"type": "js",
+		"functionName" : "beautifyCss",
+		"icons": {}
+		},
+		{
+		"name": "beautifyJs",
+		"title": "Beautify Javascript",
+		"parentMenu": "",
+		"shortcutKeys": "",
+		"type": "js",
+		"functionName" : "beautifyJs",
+		"icons": {}
+		}
+	],
+    "files" : {
+        "js" : ["beautify_css","beautify_js","beautify_html","interface"],
+        "license" : []
+    
+    }
+    ,
+	"icons": {
+	"128": "jsonlint-logo.png"
+	},
+	"license": "MIT/BSD/Apache"
+}

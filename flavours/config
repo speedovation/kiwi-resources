@@ -1,0 +1,6 @@
+{
+    "enabled" : true ,
+    "flavoursList" : "less,coffeescript,zen_coding",
+    "ignoreList" : "vkBeautify"
+}
+    

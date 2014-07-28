@@ -1,0 +1,55 @@
+/*
+ * TeamSpeak 3 Default Qt StyleSheet
+ *
+ * Copyright (c) 2009-2012 TeamSpeak Systems GmbH
+ */
+
+QStatusBar QLabel {
+  padding: 0px 3px;
+  border: 0px;
+}
+
+QTextEdit#InfoFrame {
+     background-color: #ffffff;
+     background-image: url('styles:default/logo-128x128.png');
+     background-repeat: none;
+     background-position: top right;
+     background-attachment: fixed;
+}
+
+QTextEdit#ChatTab {
+     background-color: #ffffff;
+     background-image: url('styles:default/chatlog-128x96.png');
+     background-repeat: none;
+     background-position: bottom right;
+     background-attachment: fixed;
+}
+
+QListWidget#localIconsListWidget::item:selected, QListWidget#remoteIconsListWidget::item:selected {
+	border: 1px solid darkGray;
+}
+
+QTreeView#ServerTreeView {
+	alternate-background-color: transparent;
+}
+
+QLabel#OptionsHeadlineTitleLabel {
+	color: white;
+	font-weight: bold;
+}
+
+QLabel#OptionsHeadlineDescriptionLabel {
+	color: white;
+}
+
+QToolButton#newBookmarkButton, QToolButton#newBookmarkFolderButton, QToolButton#removeBookmarkButton {
+	color: white;
+}
+
+QToolButton#newBookmarkButton:hover, QToolButton#newBookmarkFolderButton:hover, QToolButton#removeBookmarkButton:hover {
+	color: black;
+}
+
+QLabel#NewsLeftLabel {
+	padding-right: 6px;
+}

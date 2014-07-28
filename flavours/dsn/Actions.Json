@@ -1,0 +1,29 @@
+{
+	"name": "DSNCompiler",
+	"title": "DSN Compiler",
+	"description": "for normal users",
+	"version": "1",
+	"parentMenu": "menuFlavours",
+	"menuName": "DSN Compiler",
+	"actions": [
+		{
+		"name": "compile",
+		"title": "compile DSN",
+		"parentMenu": "",
+		"shortcutKeys": "Ctrl+I",
+		"type": "js",
+		"functionName" : "compile",
+		"icons": {}
+		}
+	],
+    "files" : {
+        "js" : ["dsn","jsDump","interface"],
+        "license" : []
+    
+    }
+    ,
+	"icons": {
+	"128": "jsonlint-logo.png"
+	},
+	"license": "MIT/BSD/Apache"
+}
