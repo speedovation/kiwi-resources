@@ -1,18 +1,20 @@
 {
     "_comment" : [
-                    "Whitespace will be ignored. ",
+                    "Whitespace will be ignored. After any changes KiWi needs restart.",
+                    "JSON must be valid. Use online versions to check and validate",
                     "Available menus and actions can be added into any order in any toolbar.",
                     "Create new toolbars and append or insert in current order. 1_, 2_ shows the position of toolbar. ",
                     "Play and Have fun :)"
 
-                ]
+                ],
     "Layout" :
         {
-            "1_ToolBar" : "actionCut, actionCopy, actionPaste, actionZoomIn, actionZoomOut, actionZoomReset",
-            "2_ToolBar" : "menuNew, actionOpen,menuSave",
+            "1_ToolBar" : "actionCut|cut, actionCopy|copy, actionPaste|clipboard, actionZoomIn|searchplus, actionZoomOut|searchminus, actionZoomReset|search",
+            "2_ToolBar" : "menuNew|fileo, actionOpen|folderopeno, menuSave|save",
             "3_ToolBar" : "actionNewProject, actionOpenProject, actionClearAll, actionClearAllProjects",
             "4_ToolBar" : "actionDuplicateLineUp, actionDuplicateLineDown, actionCopyLine, actionCutLine, actionMoveLineUp, actionMoveLineDown",
-            "5_ToolBar" : "actionToggleBookmark, actionNextBookmarkCurrent, actionPreviousBookmarkCurrent, actionNextBookmark, actionPreviousBookmark"
+            "5_ToolBar" : "actionToggleBookmark|bookmarko, actionNextBookmarkCurrent|bookmark, actionPreviousBookmarkCurrent, actionNextBookmark, actionPreviousBookmark",
+            "6_ToolBar" : "actionFind, actionFindFiles, actionFindNext, actionFindPrevious, actionReplace, actionOutputWindow, actionFindInCurrent"
         },
 
     "_comment": "Available menus and actions",
