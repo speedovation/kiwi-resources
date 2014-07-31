@@ -9,12 +9,12 @@
                 ],
     "Layout" :
         {
-            "1_ToolBar" : "actionCut|cut, actionCopy|copy, actionPaste|clipboard, actionZoomIn|searchplus, actionZoomOut|searchminus, actionZoomReset|search",
-            "2_ToolBar" : "menuNew|fileo, actionOpen|folderopeno, menuSave|save",
-            "3_ToolBar" : "actionNewProject, actionOpenProject, actionClearAll, actionClearAllProjects",
-            "4_ToolBar" : "actionDuplicateLineUp, actionDuplicateLineDown, actionCopyLine, actionCutLine, actionMoveLineUp, actionMoveLineDown",
+            "1_ToolBar" : "actionCut|cut, actionCopy|copy, actionPaste|clipboard, actionZoomIn|searchplus, actionZoomOut|searchminus, actionZoomReset|search, menuFlavours,actionAbout",
+            "2_ToolBar" : "menuNew|fileo, actionOpen|folderopeno, menuSave|save, Seperator, actionSelectAll, Seperator,  actionUndo,actionRedo, Seperator, actionFind, actionFindFiles, actionFindNext, actionFindPrevious, actionReplace,actionFindInCurrent",
+            "3_ToolBar" : "actionNewProject|file, actionOpenProject|folderopen, actionClearAll|eraser, actionClearAllProjects",
+            "4_ToolBar" : "actionDuplicateLineUp|arrowcircleup, actionDuplicateLineDown|arrowcircledown, actionCopyLine, actionCutLine, actionMoveLineUp|arrowcircleoup, actionMoveLineDown|arrowcircleodown",
             "5_ToolBar" : "actionToggleBookmark|bookmarko, actionNextBookmarkCurrent|bookmark, actionPreviousBookmarkCurrent, actionNextBookmark, actionPreviousBookmark",
-            "6_ToolBar" : "actionFind, actionFindFiles, actionFindNext, actionFindPrevious, actionReplace, actionOutputWindow, actionFindInCurrent"
+            "6_ToolBar" : "actionExplorer, actionWelcomeScreen, actionStatusBar, actionShowTabs, actionToolbar, actionOutputWindow,actionPreferences"
         },
 
     "_comment": "Available menus and actions",
