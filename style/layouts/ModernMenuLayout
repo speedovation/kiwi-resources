@@ -14,7 +14,7 @@
             "3_ToolBar" : "actionNewProject|file, actionOpenProject|folderopen, actionClearAll|eraser, actionClearAllProjects",
             "4_ToolBar" : "actionDuplicateLineUp|arrowcircleup, actionDuplicateLineDown|arrowcircledown, actionCopyLine, actionCutLine, actionMoveLineUp|arrowcircleoup, actionMoveLineDown|arrowcircleodown",
             "5_ToolBar" : "actionToggleBookmark|bookmarko, actionNextBookmarkCurrent|bookmark, actionPreviousBookmarkCurrent, actionNextBookmark, actionPreviousBookmark",
-            "6_ToolBar" : "actionExplorer, actionWelcomeScreen, actionStatusBar, actionShowTabs, actionToolbar, actionOutputWindow,actionPreferences"
+            "6_ToolBar" : "actionExplorer|columns, actionWelcomeScreen|list, actionStatusBar|square, actionShowTab|folder,actionToolbar, actionOutputWindow,actionPreferences"
         },
 
     "_comment": "Available menus and actions",
