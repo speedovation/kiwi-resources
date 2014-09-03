@@ -1,5 +1,6 @@
 [BasicSettings]
-bottomSplitter=@ByteArray(\0\0\0\xff\0\0\0\x1\0\0\0\x2\0\0\x1v\0\0\x1\x1\x1\0\0\0\x2\x1\0\0\0\x2\0)
+bottomSplitter=
+bottomSplittermm=@ByteArray(\0\0\0\xff\0\0\0\x1\0\0\0\x2\0\0\x2\xe1\0\0\0\xf9\x1\0\0\0\x2\x1\0\0\0\x2\0)
 cbkFileChangedOutside=0
 chkAcute=true
 chkCurlyBracket=true
@@ -15,14 +16,14 @@ chkTabOption=true
 cmbBom=0
 cmbEncoding=UTF-8
 explorerSize=@ByteArray(\0\0\0\xff\0\0\0\x1\0\0\0\x2\0\0\x1\x1b\0\0\x4_\x1\0\0\0\x1\x1\0\0\0\x1\x1)
-geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x1\0\0\0\0\0\xa4\0\0\0P\0\0\x4\xca\0\0\x2g\0\0\0\xae\0\0\0v\0\0\x4\xc0\0\0\x2]\0\0\0\0\0\0)
-maximized=false
+geometry=@ByteArray(\x1\xd9\xd0\xcb\0\x1\0\0\0\0\x5\x97\0\0\0\x18\0\0\f\xd5\0\0\x4\x37\0\0\x6Z\0\0\0n\0\0\vn\0\0\x3\x1d\0\0\0\x1\x2\0)
+maximized=true
 noOfRecentFiles=10
 noOfSpacesInTab=4
-pos=@Point(164 80)
-savestate=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\0\0\0\x4\x13\0\0\x1\xc1\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\0)
-size=@Size(1043 488)
-zoomRange=0
+pos=@Point(1626 110)
+savestate=@ByteArray(\0\0\0\xff\0\0\0\0\xfd\0\0\0\0\0\0\a?\0\0\x3\xf9\0\0\0\x4\0\0\0\x4\0\0\0\b\0\0\0\b\xfc\0\0\0\0)
+size=@Size(1301 688)
+zoomRange=2
 
 [CSSMinifier]
 chkAddTimestamp=false
@@ -69,9 +70,9 @@ editorFontSize=16
 [Layout]
 Leftpanel=true
 MenuBar=true
-Output=false
+Output=true
 OutputHeight=244
-StatusBar=true
+StatusBar=false
 TabBar=true
 Toolbar=false
 
@@ -81,8 +82,11 @@ editorTheme=default
 ideTheme=none
 qtThemes=Fusion
 
+[Update]
+FVLatestSkippedVersion=2.0.2
+
 [mainwindow]
-lastopenpath=/home/yash/Projects/qt/kiwi/Build/debug
+lastopenpath=/var/www/html/kiwi
 
 [preferences]
 session\defaultsession=Default
