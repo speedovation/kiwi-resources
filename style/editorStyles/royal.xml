@@ -8,10 +8,10 @@
   <style name="LineHighlight" background="#fefefe" />
   <style name="ChangedText" background="red" />
   <style name="SavedText" background="darkGreen" />
-  <style name="NormalText" background="#f9f9f9" />
-  <style name="LineNumber" foreground="#bbbbbb" background="#f9f9f9"/>
-  <style name="CollapseArea" foreground="#333333" background="#f9f9f9"/>
-  <style name="CollapseBlock" foreground="#777777" background="#fbfbfb"/>
+  <style name="NormalText" background="#282828" />
+  <style name="LineNumber" foreground="#f9f9f9" background="#282828"/>
+  <style name="CollapseArea" foreground="#f9f9f9" background="#282828"/>
+  <style name="CollapseBlock" foreground="#f9f9f9" background="#444"/>
 
   
   <style name="Front" foreground="#00aa00"/>
@@ -81,7 +81,7 @@
   <style name="PythonString" foreground="#ce7b00"/>
   <style name="PythonOperator" foreground="#808000"/>
   <style name="PythonIdentifier" foreground="#00c500"/>
-  <style name="PythonKeyword" foreground="#0000e6"/>
+  <style name="PythonKeyword" foreground="red"/>
   <style name="PythonFunctions" foreground="#00aaff"/>
   <style name="PythonVariable" foreground="#6d3206"/>
 

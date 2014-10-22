@@ -83,7 +83,7 @@
   <style name="PhpComment" foreground="#969696"/>
   <style name="PhpNumber" foreground="#ff0000"/>
   <style name="PhpString" foreground="#ce7b00"/>
-  <style name="PhpOperator" foreground="#808000"/>
+  <style name="PhpOperator" foreground="#9C1C6B"/>
   <style name="PhpIdentifier" foreground="#0000e6"/>
   <style name="PhpKeyword" foreground="#0000e6"/>
   <style name="PhpFunction" foreground="#0B486B"/>
