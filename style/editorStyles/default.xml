@@ -9,6 +9,7 @@
   <style name="ChangedText" background="red" />
   <style name="SavedText" background="darkGreen" />
   <style name="NormalText" background="#f9f9f9" />
+  <style name="LineNumberHighlight" foreground="#0000e6" background="#88AEEA" />
   <style name="LineNumber" foreground="#bbbbbb" background="#f9f9f9"/>
   <style name="CollapseArea" foreground="#333333" background="#f9f9f9"/>
   <style name="CollapseBlock" foreground="#777777" background="#fbfbfb"/>
@@ -80,6 +81,7 @@
   <style name="PhpEnd" foreground="#E01B1B" bold="1"/>
   <style name="PhpBackground" foreground="#00aa00"/>
   <style name="PhpNormal" foreground="#282828"/>
+  <style name="PhpOxygenComment" foreground="#88AEEA"/>
   <style name="PhpComment" foreground="#969696"/>
   <style name="PhpNumber" foreground="#ff0000"/>
   <style name="PhpString" foreground="#ce7b00"/>
@@ -87,7 +89,7 @@
   <style name="PhpIdentifier" foreground="#0000e6"/>
   <style name="PhpKeyword" foreground="#0000e6"/>
   <style name="PhpFunction" foreground="#0B486B"/>
-  <style name="PhpVariable" foreground="#6d3206"/>
+  <style name="PhpVariable" foreground="#0F8F44"/>
   
    <!-- Python  -->
   <style name="PythonBackground" foreground="#00aa00"/>
