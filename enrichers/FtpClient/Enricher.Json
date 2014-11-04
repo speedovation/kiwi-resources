@@ -12,7 +12,7 @@
 		"parentMenu": "",
 		"shortcutKeys": "Ctrl+Shift+J",
 		"type": "js",
-		"functionName" : "show",
+		"functionName" : "yftpInstance.showMe",
 		"icons": {}
 		}
 	]

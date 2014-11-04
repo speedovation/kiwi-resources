@@ -16,19 +16,6 @@ from ftplib import FTP
 # to the text browser
 
 
-#Like flavours it will automatically detect and load plugins
-#Follow all flavours instructions like ignoreList
-
-#FUNCTIONS to automate process
-# Magically load initConnect and InitInstances
-# Add initConnect and do all connections inside it
-# Add initInstances
-
-#From JSON file
-# Load IDE components defined in json file
-# Add menu and actions
-
-
 class YFtp(object):
   """docstring for YFtp"""
   
@@ -67,6 +54,10 @@ class YFtp(object):
     #ftpui.listServerFiles.count,
     #print (yyy)
 
+  def showMe(self):
+    print ( "Time SHOW" )
+    FtpClient.show()
+
 
 yftpInstance = YFtp() 
 
@@ -89,5 +80,5 @@ FtpClient.btnListFiles.connect('clicked()', yftpInstance.getList)
 #box.edit.connect('returnPressed()', appendLine)
 
 # show the window
-FtpClient.show()
+
 
