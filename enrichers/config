@@ -1,0 +1,6 @@
+{
+    "enabled" : true ,
+    "flavoursList" : "ftp",
+    "ignoreList" : "example"
+}
+    

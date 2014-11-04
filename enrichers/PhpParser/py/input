@@ -1,0 +1,62 @@
+<?php namespace funny\fun;
+class Man extends Person {
+    protected $self = array();
+    public function __construct( $fun ) {
+        $args = func_get_args();
+        for( $i=0, $n=count($args); $i<$n; $i++ )
+            $this->add($args[$i]);
+    }
+   
+    public function __get(  $name = null ) {
+        return $this->self[$name];
+    }
+   
+    public function add(  $name = null,  $enum = null ) {
+        if( isset($enum) )
+            $this->self[$name] = $enum;
+        else
+            $this->self[$name] = end($this->self) + 1;
+    }
+
+class Man1  {
+    
+}
+
+class Man2 extends Person {
+    
+}
+
+class Man3 extends Person,Common {
+    
+}
+
+class Man4 extends Person,Common implements General {
+    
+}
+
+abstract class AbsClass{
+    
+}
+    
+class MyClass
+{
+    // Declare a public constructor
+    public function __construct() { }
+
+    // Declare a public method
+    public function MyPublic() { }
+
+    // Declare a protected method
+    protected function MyProtected() { }
+
+    // Declare a private method
+    private function MyPrivate() { }
+
+    // This is public
+    function Foo()
+    {
+        $this->MyPublic();
+        $this->MyProtected();
+        $this->MyPrivate();
+    }
+} 

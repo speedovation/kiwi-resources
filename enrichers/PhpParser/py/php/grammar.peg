@@ -1,0 +1,77 @@
+# Grammar is defined using textual specification based on PEG language.
+
+# PHP analysis (partial)
+
+start = ( phpstart expression* ) / r'.*'
+
+expression = comment / namespace / usenamespace / exp_class / variable / symbol /  extendedword  
+
+exp_class = class / classfunction / function / classvariable
+
+#php rule
+phpstart = "<?php" / "<?"
+
+#comments consume and remove  text
+comment = r'(#.*\n)|(//.*\n)|(/\*(.|\n)*?\*/)'
+
+# namespace rule
+namespace = "namespace" extendedword ";"
+
+# use namespace rule
+usenamespace = "use" extendedword ";"
+
+#abstractclass
+abstractclass = "abstract"* class
+
+# class rule
+class = "class" extendedword ( "extends" ( extendedword ","* )+ )* ( "implements" ( extendedword ","* )+ )* "{"
+
+# function rule
+classfunction = visibility function
+function = "function" extendedword arguments* "{"
+block = "{" r'[^}]*' "}"
+arguments = "(" argument* ")"
+
+#$types = array("cappuccino")
+#arguments end with optional comma
+argument = extendedword* ( byvalue / byreference ) ("=" value ws* )* ","*
+byreference = "&" variable
+byvalue = variable
+
+#protected $bootingCallbacks = array();
+classvariable = visibility variable ( "=" value )* ";"
+
+# Possible values
+# Name::variable : variable in namespace as value in function
+# Array  : Currently only detect if array is empty TODO find even array is filled
+# String : single or double quoted value
+value = variable / string / array / extendedword 
+#  / word 
+
+array = "array(" extendedword* ")"
+visibility = "public" / "protected" / "private"
+
+variable = r'\$[a-zA-z]+[a-zA-Z0-9_]*'
+
+
+string = ('"' word* '"' ) / ( "'" word* "'" )
+nonspace = r'[a-zA-Z0-9\\_\(\):]+'
+
+extendedword = r'[a-zA-Z0-9\\_:]+'
+word = r'[a-zA-Z0-9_]+'
+literal = r'[a-zA-Z]+'
+
+
+symbol = r'[\W]+'
+
+anyword = r'[\w]*'
+ws = r'[\s]+'
+
+
+
+# (/\\*[^/]*\\*/)
+
+# /\*(.|\n)*?\*/'
+#/ multilinecomment
+#(/\\\\*[^\\\\*]*\\\\*/)
+#multilinecomment = "/*" r'[.|\\n]*' "*/"

@@ -1,0 +1,23 @@
+{
+    #blank means default namespace
+    "" : {
+              "variables" :   [ 'public var', 'private var2' ],
+              "functions" :  [
+                       [visiblity, functionname, parameters ],
+                       [visiblity, functionname, parameters ],
+              ],
+               
+              "classes" : {
+                   
+                  "classname" : { 
+                       "variables" :   [ 'public var', 'private var2' ],
+                       "functions" :   [],    
+                   }
+  
+              }
+                
+        
+         } 
+    
+   
+}
