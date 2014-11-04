@@ -1,26 +1,25 @@
 {
-	"name": "CoffeeInterface",
-	"title": "Coffee compiler",
-	"description": "Less compiler for web developers",
+	"name": "FTPClient",
+	"title": "FTP Client",
+	"description": "FTP Client using python power",
 	"version": "1",
-	"parentMenu": "menuFlavours",
-	"menuName": "CoffeeScript compiler",
+	"parentMenu": "menuEnricher",
+	"menuName": "FTP Client",
 	"actions": [
 		{
-		"name": "compileCoffeeScript",
-		"title": "Compile CoffeeScript",
+		"name": "ftpClient",
+		"title": "FTP Client",
 		"parentMenu": "",
-		"shortcutKeys": "Ctrl+Shift+k",
+		"shortcutKeys": "Ctrl+Shift+J",
 		"type": "js",
-		"functionName" : "compileCoffeeScript",
+		"functionName" : "show",
 		"icons": {}
 		}
 	]
     ,
     "files" : {
-        "js" : ["coffee-script","interface"],
-        "license" : []
-    
+        "py" : ["ftp"],
+        "license" : ["MIT"]
     }
     , 
 
