@@ -2,11 +2,14 @@
 # -*- coding: utf-8 -*-
 
 from __future__ import absolute_import, unicode_literals, print_function
+import sys
+import os
+sys.path.append( "/home/yash/Projects/qt/kiwi/Build/debug/resources/enrichers/PhpParser/py/php" )
 
 from arpeggio.cleanpeg import ParserPEG
 from arpeggio import visit_parse_tree
 from visitor import Visitor
-import sys
+
 
 grammar_filename = "grammar.peg"
 
@@ -41,10 +44,11 @@ class Php(object):
         return None
         
 #Below code just to dev used and testing
-def main(debug=False):
+def showMe(debug=False):
 
         
-    filename = sys.argv[1]
+    #filename = sys.argv[1]
+    filename = "/home/yash/Projects/qt/kiwi/Build/debug/resources/enrichers/PhpParser/py/test/Application.php"
     #debug = bool(sys.argv[2])
 
     with open(filename) as file:
@@ -63,6 +67,9 @@ def main(debug=False):
     
     if not input_expr:
         return None
+
+    #grammar_filename = "%s/grammar.peg" % os.getcwd()
+    grammar_filename = "resources/enrichers/PhpParser/py/php/grammar.peg"
     
     # First we will make a parser - an instance of the calc parser model.
     # Parser model is given in the form of PEG notation therefore we
@@ -104,5 +111,5 @@ if __name__ == "__main__":
     # In debug mode dot (graphviz) files for parser model
     # and parse tree will be created for visualization.
     # Checkout current folder for .dot files.
-    main(debug=False)
-
+    #main(debug=False)
+    pass
