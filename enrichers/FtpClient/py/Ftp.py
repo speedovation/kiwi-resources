@@ -52,17 +52,17 @@ class YFtp(object):
   def getList(self):
     #self.ftp.retrlines('LIST')
 
-    print ( ftpui.listServerFiles.count )
-    print ( ftpui.listServerFiles.currentRow )
+    print ( FtpClient.listServerFiles.count )
+    print ( FtpClient.listServerFiles.currentRow )
     #print ( ftpui.listServerFiles.item(0) )
 
     yyy = []
     self.ftp.retrlines("LIST", yyy.append)
     
-    ftpui.listServerFiles.addItem("some")
+    FtpClient.listServerFiles.addItem("some")
 
     for y in yyy:
-      ftpui.listServerFiles.addItem(str(y))
+      FtpClient.listServerFiles.addItem(str(y))
       #ftpui.listServerFiles.addItem(QtGui.QListWidgetItem(y))
     #ftpui.listServerFiles.count,
     #print (yyy)
@@ -71,7 +71,7 @@ class YFtp(object):
 yftpInstance = YFtp() 
 
 def connectFtp():
-  yftpInstance.connectHost(ftpui.hostname.text,ftpui.port.text, ftpui.username.text,ftpui.password.text)
+  yftpInstance.connectHost(FtpClient.hostname.text,FtpClient.port.text, FtpClient.username.text,FtpClient.password.text)
 
 
 #  ftp = FTP('ftp.debian.org')     # connect to host, default port
@@ -81,13 +81,13 @@ def connectFtp():
 #  ftp.retrlines('LIST') 
 
 # connect the button's clicked signal to our python method
-ftpui.btnConnect.connect('clicked()', connectFtp)
+FtpClient.btnConnect.connect('clicked()', connectFtp)
 
-ftpui.btnListFiles.connect('clicked()', yftpInstance.getList)
+FtpClient.btnListFiles.connect('clicked()', yftpInstance.getList)
 
 # connect the lineedit's returnPressed signal to our python method
 #box.edit.connect('returnPressed()', appendLine)
 
 # show the window
-ftpui.show()
+FtpClient.show()
 
