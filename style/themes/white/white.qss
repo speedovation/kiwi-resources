@@ -521,13 +521,14 @@ QTreeView::item
 {
     border: 1px solid transparent;
     border-image: none;
-    padding: 2px 4px;
+    padding: 2px 0;
 }
 
 QTreeView#projectExplorer::item
 {
     border-radius: 3px;
-    
+    padding-right: 4px;
+    padding-left: 4px;
 }
 QTreeView#projectExplorer,
 QTreeWidget#preferencesSidebarTree,
