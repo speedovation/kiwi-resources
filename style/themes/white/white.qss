@@ -521,12 +521,12 @@ QTreeView::item
 {
     border: 1px solid transparent;
     border-image: none;
+    padding: 2px 4px;
 }
 
 QTreeView#projectExplorer::item
 {
     border-radius: 3px;
-    padding: 2px 4px;
     
 }
 QTreeView#projectExplorer,
@@ -1091,58 +1091,7 @@ QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal
 }
 
 /* tab tab menu */
-/* Customize spins boxes. */
-QSpinBox
-{
-    background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #f7f8f9, stop:0.0680112 #f7f8f9, stop:0.0690112 #f1f3f4, stop:0.514566 #e4e7ea, stop:0.52577 #dde1e5, stop:1 #d0d4da);
-    border-radius: 3px;
-    border: 1px solid #7d8389;
-    padding-left: 8px;
-    padding-bottom: 8px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    selection-color: #ffffff;
-    selection-background-color: #6a7582;
-}
 
-QSpinBox::up-button
-{
-    subcontrol-origin: border;
-    subcontrol-position: top right;
-    width: 15px;/* 16 + 2*1px border-width = 15px padding + 3px parent border */
-    border-image: url(:/theme/images/theme/default/arrow/spin/arrow-down.png) 1;
-    border-width: 1px;
-}
-
-QSpinBox::up-button:hover
-{
-    border-image: url(:/theme/images/theme/default/arrow/spin/arrow-down-insensitive.png) 1;
-}
-
-QSpinBox::up-button:pressed
-{
-    border-image: url(:/theme/images/theme/default/arrow/spin/arrow-up-prelight.png) 1;
-}
-
-QSpinBox::down-button
-{
-    subcontrol-origin: border;
-    subcontrol-position: bottom right;
-    width: 15px;
-    border-image: url(:/theme/images/theme/default/arrow/spin/arrow-up.png) 1;
-    border-width: 1px;
-    border-top-width: 0;
-}
-
-QSpinBox::down-button:hover
-{
-    border-image: url(:/theme/images/theme/default/arrow/spin/arrow-up-insensitive.png) 1;
-}
-
-QSpinBox::down-button:pressed
-{
-    border-image: url(:/theme/images/theme/default/arrow/spin/arrow-down-prelight.png) 1;
-}
 
 QSplitter::handle:horizontal
 {
@@ -1394,7 +1343,7 @@ QComboBox
     background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #f7f8f9, stop:0.0680112 #f7f8f9, stop:0.0690112 #f1f3f4, stop:0.514566 #e4e7ea, stop:0.52577 #dde1e5, stop:1 #d0d4da);
     border-radius: 3px;
     border: 1px solid #7d8389;
-    paddding: 15px 0;
+    padding: 2px 0;
     height: 20px;
 }
 
@@ -1451,11 +1400,18 @@ QComboBox[editable="true"]::drop-down
 {
     subcontrol-origin: border;
     subcontrol-position: top right;
-    width: 18px;
+    width: 32px;
     position: absolute;
     top: 2px;
     bottom: 2px;
-    right: 12px;
+    right: 2px;
+    
+     border-left-style: solid;
+    border-left-color: darkgray;
+    border-left-width: 1px;
+    
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #f7f8f9, stop:0.0680112 #f7f8f9, stop:0.0690112 #f1f3f4, stop:0.514566 #e4e7ea, stop:0.52577 #dde1e5, stop:1 #d0d4da);
+/*    border: 1px solid #333;*/
     
 }
 
@@ -1474,14 +1430,18 @@ QComboBox[editable="true"]::down-arrow:on
 }
 
 
-
-
-
-
-/* Customize spin boxes. */
-
-QSpinBox { 
-    padding-right: 15px;
+/* Customize spins boxes. */
+QSpinBox
+{
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #f7f8f9, stop:0.0680112 #f7f8f9, stop:0.0690112 #f1f3f4, stop:0.514566 #e4e7ea, stop:0.52577 #dde1e5, stop:1 #d0d4da);
+    border-radius: 3px;
+    border: 1px solid #7d8389;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    selection-color: #ffffff;
+    selection-background-color: #6a7582;
 }
 
 QSpinBox::up-button {
@@ -1508,7 +1468,10 @@ QSpinBox::down-button {
     width: 16px;
     border-image: url(resources/style/images/default/spindown.png) 1;
     border-width: 1px;
-    border-top-width: 0;
+    
+    
+   
+    
     
 }
 
