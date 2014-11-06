@@ -75,7 +75,7 @@ QTabWidget
 /* Make the entire row selected in item views. */
 QAbstractItemView
 {
-    show-decoration-selected: 0;
+/*    show-decoration-selected: 0;*/
 }
 
 QStatusBar
@@ -469,7 +469,7 @@ QTreeWidget#treeResult
 /* Customize the treeview. */
 QTreeView,QTreeWidget
 {
-    show-decoration-selected: 0;
+/*    show-decoration-selected: 0;*/
     color: #333;/*   background: #eef1f8;*/
     background: transparent;
     selection-background-color: transparent;
@@ -607,7 +607,7 @@ QTreeView::branch:open:has-children:!has-siblings, QTreeView::branch:open:has-ch
 
 QListView
 {
-    show-decoration-selected: 0;
+/*    show-decoration-selected: 0;*/
     color: #000;
     background: transparent;
     border: none;
