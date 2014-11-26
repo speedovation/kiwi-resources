@@ -7,13 +7,18 @@
         "name" : "mainToolBar"
     },
     
-    "explorer": {
+    "leftexplorer": {
         "__comment__": "top left right bottom",
         "location": "left",
         "show": true,
         "name" : "leftContainer"
     },
-    
+    "rightexplorer": {
+        "__comment__": "top left right bottom",
+        "location": "right",
+        "show": true,
+        "name" : "rightContainer"
+    },
     "tabbar": {
         "__comment__": "top left right bottom",
         "location": "top",

@@ -6,7 +6,7 @@ QMainWindow > .QWidget
     
     padding: 0px;
     border: none;
-    font-family: Consolas;
+/*    font-family: Consolas;*/
 }
 
 .QWidget , QDialog
