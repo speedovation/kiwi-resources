@@ -118,8 +118,8 @@ QTabWidget#tabToolWindow QTabBar::tab:top
     height: 18px;
     margin-right: 1px;
     margin-left: 1px;
-    border-top-right-radius: 2px;
-    border-top-left-radius: 2px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
 }
 
 QTabWidget#tabToolWindow QTabBar::tab:top:selected
@@ -155,12 +155,13 @@ QTabWidget::pane
 QTabBar::tab:top
 {
     min-width: 16ex;
-    padding: 4px 8px;
+    padding: 2px 4px;
     margin-right: 0px;
-    margin-left: 1px;
-    border-top-right-radius: 4px;
-    border-top-left-radius: 4px;
-    font-weight: bold;
+    margin-left: 0px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    
+/*    font-weight: bold;*/
 }
 
 /*Change bg color of selector list and css top toolbar */
@@ -175,15 +176,15 @@ QTabBar::tab:top:!selected
     margin-top: 1px;
     
     background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #f7f8f9, stop:0.0680112 #f7f8f9, stop:0.0690112 #f1f3f4, stop:0.514566 #e4e7ea, stop:0.52577 #dde1e5, stop:1 #d0d4da);
-    border-top-right-radius: 2px;
-    border-top-left-radius: 2px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
     border: 1px solid #7d8389;
     border-bottom-color: transparent;
     background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #b3b3bC, stop:1 #9A9FA5);
 /*    background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #B4B7B9, stop:1  #9FABB6);*/
 
 /*    background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #f7f8f9, stop:0.0680112 #f7f8f9, stop:0.0690112 #f1f3f4, stop:0.514566 #e4e7ea, stop:0.52577 #dde1e5, stop:1 #d0d4da);*/
-    
+    border-right : 0;
 }
 
 /* make use of negative margins for overlapping tabs */
@@ -195,17 +196,25 @@ QTabBar::tab:top:selected
     border: 1px solid #7d8389;
     border-bottom: 0px solid #c3bfbf;
     background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #fff, stop:1 #eee);
-
+     background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #e3e3eC, stop:1 #cAcFd5);
+    border-right : 0;
 }
-
+QTabBar::tab:top:last
+{
+    border-right: 1px solid #7d8389;
+}
 QTabBar::tab:top:hover
 {
     background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #E6E5E3, stop:1 #E6E5E3);
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #E6E5E3, stop:1 #E6E5E3);
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #c3c3cC, stop:1 #aAaFb5);
+
 }
 
 QTabBar::tab:top:selected:hover
 {
     background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #fff, stop:1 #eee);
+     background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #eaeaee, stop:1 #E6E5E3);
 }
 
 QTabBar::tab:bottom
@@ -263,12 +272,15 @@ QTabBar::tab:only-one
 
 QTabBar::close-button
 {
-    image: url(:/tango/images/tango/16x16/actions/process-stop.png);
+/*    image: url(:/tango/images/tango/16x16/actions/process-stop.png);*/
+    image: url(:/themes/white/white/close16.png);
 }
 
 QTabBar::close-button:hover
 {
-    image: url(:/tango/images/tango/16x16/actions/process-stop-over.png);
+/*    image: url(:/tango/images/tango/16x16/actions/process-stop-over.png);*/
+    background-color:#ccc;
+    border-radius: 2px;
 }
 
 QTabBar::tear
@@ -1359,10 +1371,13 @@ QSizeGrip
 QComboBox
 {
     background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #f7f8f9, stop:0.0680112 #f7f8f9, stop:0.0690112 #f1f3f4, stop:0.514566 #e4e7ea, stop:0.52577 #dde1e5, stop:1 #d0d4da);
-    border-radius: 3px;
-    border: 1px solid #7d8389;
+    border-radius: 1px;
+    border: 1px solid #aAaFb5;
     padding: 2px 0;
-    height: 20px;
+/*    height: 20px;*/
+/*    margin-top: 2px;*/
+    
+    background-color: #eaeaee;
 }
 
 QComboBox[editable="false"]
