@@ -1,8 +1,12 @@
 from arpeggio import PTNodeVisitor
+from PythonQt import *
+from PythonQt.QtGui import QStandardItemModel
+from PythonQt.QtGui import QStandardItem
 
 class Visitor(PTNodeVisitor):
 
-    def __init__(self, defaults=True, debug=False):
+    
+    def __init__(self, defaults=True, debug=False, api=""):
         super().__init__(defaults, debug)
 
         #blank entry is global namespace
@@ -13,6 +17,13 @@ class Visitor(PTNodeVisitor):
         #default is blank that is global namespace
         self.current_namespace = ''
         self.current_class = ''
+        self.api = api
+        
+        filename = api.filepath()
+        m = api.outlineModel()
+        m.clean()
+        
+        #m.insertRow(2, QStandardItem("d->fileInfo()- TTTT"))
         
 
     def visit_namespace(self, node, children):
@@ -23,6 +34,10 @@ class Visitor(PTNodeVisitor):
         n = children[0].replace('\\\\','\\')
         self.namespace[n] = self.classes
         self.current_namespace = n
+        
+        ### Inserting namespace in outline DOM model
+        self.api.updateOutlineModel(n)
+        
 
     def visit_abstractclass(self, node, children):
         #print (" class name" )
@@ -40,7 +55,10 @@ class Visitor(PTNodeVisitor):
         self.functions = []
         self.classes[ children[0] ] = self.functions
         
-        self.namespace[ self.current_namespace] = self.classes     
+        self.namespace[ self.current_namespace] = self.classes 
+        
+        ### Inserting namespace in outline DOM model
+        self.api.updateOutlineModel(children[0],1)    
 
     def visit_classfunction(self, node, children):
         """
@@ -62,6 +80,10 @@ class Visitor(PTNodeVisitor):
         #print ("Function name")
         #print(children)
         #print (node)
+
+        ### Inserting function in outline DOM model
+        self.api.updateOutlineModel(children[0], 2)
+        
         self.functions.append ( children )
         
     def visit_comment(self, node, children):

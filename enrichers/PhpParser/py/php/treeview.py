@@ -12,8 +12,8 @@ def fill_item(item, value):
   item.setExpanded(True)
   if type(value) is dict:
     for key, val in sorted(value.iteritems()):
-      child = QTreeWidgetItem()
-      child.setText(0, unicode(key))/Volumes/Work/Projects/qt/kiwi/Build/debug/KiWi.app/Contents/MacOS/resources/enrichers/PhpParser/py/php/treeview.py
+      child = QStandardItem()
+      child.setText(0, unicode(key))
       item.addChild(child)
       fill_item(child, val)
   elif type(value) is list:
@@ -37,6 +37,28 @@ def fill_item(item, value):
 def fill_widget(widget, value):
   widget.clear()
   fill_item(widget.invisibleRootItem(), value)
+  
+
+
+
+'''
+
+d = {
+  "": "",
+  "Boris": {
+    "ColoredInspector": [
+          [
+            "__construct"
+          ],
+          [
+            "__construct"
+          ]
+          
+      ]
+  }
+   
+}   
+'''
   
   
 #  widget = QTreeWidget()

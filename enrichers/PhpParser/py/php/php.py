@@ -6,6 +6,10 @@ import sys
 import os
 sys.path.append( "/home/yash/Projects/qt/kiwi/Build/debug/resources/enrichers/PhpParser/py/php" )
 
+from PythonQt import *
+from PythonQt.editor import BaseEditor
+
+
 from arpeggio.cleanpeg import ParserPEG
 from arpeggio import visit_parse_tree
 from visitor import Visitor
@@ -35,9 +39,10 @@ class Php(object):
         
         #Try to get if we found anything or not        
         if ( visitor.functions or visitor.classes):
-            print (visitor.namespace )
+            pass
+#            print (visitor.namespace )
         
-            return visitor
+#            return visitor
             
         print ("Empty")
         
@@ -46,16 +51,20 @@ class Php(object):
 #Below code just to dev used and testing
 def showMe(debug=False):
 
+    filename = api.filepath();
+#    filename = workspaces.getBaseEditor.featuresManager;
+    
         
     #filename = sys.argv[1]
-    filename = "/home/yash/Projects/qt/kiwi/Build/debug/resources/enrichers/PhpParser/py/test/Application.php"
+#    filename = "/home/yash/Projects/qt/kiwi/Build/debug/resources/enrichers/PhpParser/py/test/Application.php"
+#    filename = "/var/www/html/webbase/fuel/app/tasks/robots.php"
     #debug = bool(sys.argv[2])
 
     with open(filename) as file:
         contents = file.read()
     #print (contents)
 #    # An expression we want to evaluate
-    input_expr = """public function emergency($message, $context = array() ){"""
+#    input_expr = """public function emergency($message, $context = array() ){"""
 #    input_expr = "($message, $context=array() )"
     
 #    input_expr = "$context = array()"
@@ -78,13 +87,13 @@ def showMe(debug=False):
     f = open(grammar_filename, "r")
     grammar = f.read()
         
-    parser = ParserPEG(grammar, "start", True)
+    parser = ParserPEG(grammar, "start", True) #whitespace last param
 
 
     # Then parse tree is created out of the input_expr expression.
     parse_tree = parser.parse(input_expr)
 
-    visitor = Visitor(debug=True)
+    visitor = Visitor(debug=debug,api=api)
     result = visit_parse_tree(parse_tree, visitor )
     
     print (visitor.namespace )

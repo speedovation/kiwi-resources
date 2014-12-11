@@ -11,7 +11,7 @@
 		"title": "Php Class View",
 		"parentMenu": "",
 		"shortcutKeys": "Ctrl+Shift+l",
-		"type": "js",
+		"type": "py",
 		"functionName" : "showMe",
 		"icons": {}
 		}
