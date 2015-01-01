@@ -21,7 +21,7 @@ class Visitor(PTNodeVisitor):
         
         filename = api.filepath()
         m = api.outlineModel()
-        m.clean()
+        m.clean(m)
         
         #m.insertRow(2, QStandardItem("d->fileInfo()- TTTT"))
         

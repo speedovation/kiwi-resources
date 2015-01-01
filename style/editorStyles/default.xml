@@ -13,6 +13,23 @@
   <style name="LineNumber" foreground="#bbbbbb" background="#f9f9f9"/>
   <style name="CollapseArea" foreground="#333333" background="#f9f9f9"/>
   <style name="CollapseBlock" foreground="#777777" background="#fbfbfb"/>
+  <style name="Tooltip" foreground="#f9f9f9" background="#282828"/>
+  
+  
+  <!-- 
+  
+	QTextCharFormat::NoUnderline	0	Text is draw without any underlining decoration.
+	QTextCharFormat::SingleUnderline	1	A line is drawn using Qt::SolidLine.
+	QTextCharFormat::DashUnderline	2	Dashes are drawn using Qt::DashLine.
+	QTextCharFormat::DotLine	3	Dots are drawn using Qt::DotLine;
+	QTextCharFormat::DashDotLine	4	Dashs and dots are drawn using Qt::DashDotLine.
+	QTextCharFormat::DashDotDotLine	5	Underlines draw drawn using Qt::DashDotDotLine.
+	QTextCharFormat::WaveUnderline	6	The text is underlined using a wave shaped line.
+	QTextCharFormat::SpellCheckUnderline	7
+
+  -->
+  
+  <style name="ErrorMarker" foreground="red" background="yellow" underline="6"/>
 
   
   <style name="Front" foreground="#00aa00"/>
