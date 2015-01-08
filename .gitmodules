@@ -1,0 +1,3 @@
+[submodule "flavours/php"]
+	path = flavours/php
+	url = git@github.com:speedovation/kiwi-php-plugins.git
