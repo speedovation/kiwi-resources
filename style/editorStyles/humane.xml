@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme version="1.0" name="Default">
+
+  <!-- Common  -->
+
+  <style name="Base" foreground="#000000" background="#E3D5C1" bold="0" italic="0" state="-10"/>
+  <style name="BaseHighlight" background="#e0e0e0" />
+  <style name="LineHighlight" background="#fefefe" />
+  <style name="ChangedText" background="red" />
+  <style name="SavedText" background="darkGreen" />
+  <style name="NormalText" background="#f9f9f9" />
+  <style name="LineNumberHighlight" foreground="#0000e6" background="#88AEEA" />
+  <style name="LineNumber" foreground="#000000" background="#E3D5C1"/>
+  <style name="CollapseArea" foreground="#111111" background="#E3D5C1"/>
+  <style name="CollapseBlock" foreground="#777777" background="#fbfbfb"/>
+  <style name="Tooltip" foreground="#f9f9f9" background="#282828"/>
+  
+  
+  <!-- 
+  
+	QTextCharFormat::NoUnderline	0	Text is draw without any underlining decoration.
+	QTextCharFormat::SingleUnderline	1	A line is drawn using Qt::SolidLine.
+	QTextCharFormat::DashUnderline	2	Dashes are drawn using Qt::DashLine.
+	QTextCharFormat::DotLine	3	Dots are drawn using Qt::DotLine;
+	QTextCharFormat::DashDotLine	4	Dashs and dots are drawn using Qt::DashDotLine.
+	QTextCharFormat::DashDotDotLine	5	Underlines draw drawn using Qt::DashDotDotLine.
+	QTextCharFormat::WaveUnderline	6	The text is underlined using a wave shaped line.
+	QTextCharFormat::SpellCheckUnderline	7
+
+  -->
+  
+  <style name="ErrorMarker" foreground="red" background="yellow" underline="6"/>
+
+  
+  <style name="Front" foreground="#00aa00"/>
+  <style name="Sidebar" foreground="#00aa00"/>
+  
+  <style name="Cursor" foreground="#00aa00"/>
+  <style name="Marker" foreground="#ffff00"/>
+
+  <style name="BracketMatch" foreground="#00aa00"/>
+  <style name="BracketError" foreground="#00aa00"/>
+  <style name="FoldIndicator" foreground="#00aa00"/>
+
+  <!-- HTML  -->
+  <style name="Doctype" foreground="#628fb5"/>
+  <style name="Entity" bold="1"/>
+  <style name="Tag" foreground="#3939f2"/>
+  <style name="HtmlComment" foreground="#937A42"/>
+  <style name="Attribute" foreground="#009900"/>
+  <style name="HtmlValue" foreground="#de7a39"/>
+
+  <!-- CSS  -->
+  <style name="Selector" foreground="#ce395d" bold="0" />
+  <style name="Property" foreground="#dc6924" italic="0" />
+  <style name="CssValue" foreground="#2361c5" />
+  <style name="CssComment" foreground="#937A42"/>
+  <style name="Import" foreground="#395f5f"/>
+  <style name="Media" foreground="#00aa00"/>
+  <style name="Charset" foreground="#aa55ff"/>
+  <style name="CssString" foreground="#259241"/>
+  <style name="CssSymbol" foreground="#7d7dba"/>
+  <style name="CssNumber" foreground="#aa0000"/>
+  <style name="CssHighlightBlocks" background="#FFF5D1"/>
+  
+  <!-- Less  -->
+  <style name="LessSelector" foreground="#0B486B" bold="1" />
+  <style name="LessProperty" foreground="#dc6924" italic="0" />
+  <style name="LessValue" foreground="#2361c5" />
+  <style name="LessComment" foreground="#937A42"/>
+  <style name="LessImport" foreground="#395f5f"/>
+  <style name="LessMedia" foreground="#00aa00"/>
+  <style name="LessCharset" foreground="#aa55ff"/>
+  <style name="LessString" foreground="#259241"/>
+  <style name="LessSymbol" foreground="#7d7dba"/>
+  <style name="LessNumber" foreground="#aa0000"/>
+  <style name="LessVariable" foreground="#00b9a9"/>
+  <style name="LessVariableValue" foreground="#009009"/>
+  <style name="LessMixins" foreground="#E01B1B" bold="1"/>
+  
+  <style name="LessHighlightBlocks" background="#fdfdfd"/>  
+
+ <!-- JavaScript  -->
+  <style name="Background" foreground="#00aa00"/>
+  <style name="NormalJavascript" foreground="#333333"/>
+  <style name="JavaScriptComment" foreground="#937A42"/>
+  <style name="JavaScriptNumber" foreground="#d35e2c"/>
+  <style name="JavaScriptString" foreground="#259241"/>
+  <style name="JavaScriptOperator" foreground="#808000"/>
+  <style name="JavaScriptIdentifier" foreground="#00c500"/>
+  <style name="JavaScriptKeyword" foreground="#b83926"/>
+  <style name="JavaScriptFuture" foreground="#d35e2c"/>
+  <style name="JavaScriptFunction" foreground="blue"/>
+  <style name="JavaScriptRegex" foreground="#5500ee"/>
+
+  <!-- PHP  -->
+  <style name="PhpBegin" foreground="#E01B1B" bold="1"/>
+  <style name="PhpEnd" foreground="#E01B1B" bold="1"/>
+  <style name="PhpBackground" foreground="#00aa00"/>
+  <style name="PhpNormal" foreground="#282828"/>
+  <style name="PhpOxygenComment" foreground="#88AEEA"/>
+  <style name="PhpComment" foreground="#937A42"/>
+  <style name="PhpNumber" foreground="#ff0000"/>
+  <style name="PhpString" foreground="#259241"/>
+  <style name="PhpOperator" foreground="#9C1C6B"/>
+  <style name="PhpIdentifier" foreground="#0000e6"/>
+  <style name="PhpKeyword" foreground="#0000e6"/>
+  <style name="PhpFunction" foreground="#0B486B"/>
+  <style name="PhpVariable" foreground="#0F8F44"/>
+  
+   <!-- Python  -->
+  <style name="PythonBackground" foreground="#00aa00"/>
+  <style name="PythonNormal" foreground="#282828"/>
+  <style name="PythonComment" foreground="#937A42"/>
+  <style name="PythonNumber" foreground="#ff0000"/>
+  <style name="PythonString" foreground="#259241"/>
+  <style name="PythonDocString" foreground="#ce7b00"/>
+  <style name="PythonOperator" foreground="#ce395d"/>
+  <style name="PythonIdentifier" foreground="#00c500"/>
+  <style name="PythonKeyword" foreground="#0000e6"/>
+  <style name="PythonFunctions" foreground="#00aaff"/>
+  <style name="PythonVariable" foreground="#5500ee"/>
+  <style name="PythonVariableValue" foreground="#6d3206"/>
+
+
+</style-scheme>

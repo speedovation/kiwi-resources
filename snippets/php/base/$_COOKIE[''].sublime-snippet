@@ -1,0 +1,8 @@
+[Info]
+tabTrigger=class
+desc=Class Defination
+author=
+license=
+
+[Snippet]
+$_COOKIE['${1:variable}']

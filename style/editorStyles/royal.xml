@@ -33,10 +33,10 @@
   <style name="HtmlValue" foreground="#de7a39"/>
 
   <!-- CSS  -->
-  <style name="Selector" foreground="#ce395d" bold="0" />
-  <style name="Property" foreground="#333333" italic="1" />
+  <style name="Selector" foreground="#fffaba" bold="1" />
+  <style name="Property" foreground="#ccc333" italic="0" />
   <style name="CssValue" foreground="#2361c5" />
-  <style name="CssComment" foreground="#73748e"/>
+  <style name="CssComment" foreground="#a3748e"/>
   <style name="Import" foreground="#395f5f"/>
   <style name="Media" foreground="#00aa00"/>
   <style name="Charset" foreground="#aa55ff"/>
