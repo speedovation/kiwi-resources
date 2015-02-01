@@ -8,6 +8,7 @@ h2. Introduction
 
 Kineticwing IDE Resources like Themes, Settings, Database, Flavours etc
 
+p. Mirror : https://bitbucket.org/codeyash/resources/
 
 
 h2. License
