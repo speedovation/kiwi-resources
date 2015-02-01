@@ -7,3 +7,6 @@
 [submodule "skins"]
 	path = skins
 	url = git@github.com:speedovation/kiwi-skins.git
+[submodule "colorschemes"]
+	path = colorschemes
+	url = git@github.com:speedovation/kiwi-color-schemes.git
