@@ -1,0 +1,18 @@
+h1. Kineticwing IDE Resources
+
+^Doc Version : 1.0^
+^IDE Version : 2.0.6^
+
+
+h2. Introduction
+
+Kineticwing IDE Resources like Themes, Settings, Database, Flavours etc
+
+
+
+h2. License
+
+* Everything except third party libraries are under Apache License, Version 2.0
+* Feel free to do whatever you like with code.
+* Doc is under creative common
+
