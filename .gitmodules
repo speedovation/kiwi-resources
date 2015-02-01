@@ -1,3 +1,6 @@
 [submodule "flavours/php"]
 	path = flavours/php
 	url = git@github.com:speedovation/kiwi-php-plugins.git
+[submodule "flavours/node"]
+	path = flavours/node
+	url = git@github.com:speedovation/kiwi-node-plugins.git

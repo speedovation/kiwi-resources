@@ -91,16 +91,16 @@
 
  <!-- JavaScript  -->
   <style name="Background" foreground="#00aa00"/>
-  <style name="NormalJavascript" foreground="#333333"/>
+  <style name="NormalJavascript" foreground="#FFFFFF"/>
   <style name="JavaScriptComment" foreground="#99A38A"/>
-  <style name="JavaScriptNumber" foreground="#d35e2c"/>
+  <style name="JavaScriptNumber" foreground="#FFCD22"/>
   <style name="JavaScriptString" foreground="#EC7600"/>
-  <style name="JavaScriptOperator" foreground="#808000"/>
-  <style name="JavaScriptIdentifier" foreground="#00c500"/>
-  <style name="JavaScriptKeyword" foreground="#b83926"/>
+  <style name="JavaScriptOperator" foreground="#FFCD22"/>
+  <style name="JavaScriptIdentifier" foreground="#93C763"/>
+  <style name="JavaScriptKeyword" foreground="#93C763"/>
   <style name="JavaScriptFuture" foreground="#d35e2c"/>
-  <style name="JavaScriptFunction" foreground="blue"/>
-  <style name="JavaScriptRegex" foreground="#5500ee"/>
+  <style name="JavaScriptFunction" foreground="#0B486B"/>
+  <style name="JavaScriptRegex" foreground="#E8E2B7"/>
 
   <!-- PHP  -->
   <style name="PhpBegin" foreground="#FFCD22" bold="1"/>
