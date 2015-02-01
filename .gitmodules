@@ -4,3 +4,6 @@
 [submodule "flavours/node"]
 	path = flavours/node
 	url = git@github.com:speedovation/kiwi-node-plugins.git
+[submodule "skins"]
+	path = skins
+	url = git@github.com:speedovation/kiwi-skins.git
