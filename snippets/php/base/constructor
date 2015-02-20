@@ -1,10 +1,10 @@
 Info]
-tabTrigger=class
-desc=Class Defination
+tabTrigger=constructor
+desc=Constructor Defination
 author=
 license=
 
 [Snippet]
-function __construct(${1:\$${2:foo}${3: = ${4:null}}}) {
-	${2/.+/$this->$0 = \$$0;/}$0
+function __construct() {
+	
 }
