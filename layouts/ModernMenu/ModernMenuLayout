@@ -7,6 +7,7 @@
                     "Play and Have fun :)"
 
                 ],
+    "theme-name" : "default" ,
     "Layout" :
         {
             "1_ToolBar" : "actionCut|cut, actionCopy|copy, actionPaste|clipboard, actionZoomIn|searchplus, actionZoomOut|searchminus, actionZoomReset|search, menuFlavours,actionAbout",
