@@ -1,13 +1,13 @@
 "!https://img.shields.io/badge/GitterChat-Online-brightgreen.svg?style=flat-square!":https://gitter.im/speedovation/general "!https://img.shields.io/badge/HipChat-Online-brightgreen.svg?style=flat-square!":https://www.hipchat.com/ggaNhaRfU  "!http://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square!":http://opensource.org/licenses/Apache-2.0 "!https://img.shields.io/badge/Current%20Version-2.0.7-47C9DE.svg?style=flat-square!":http://kineticwing.com
 
 h1. Kineticwing IDE Resources
-p. It contains database, settings, layouts, color schemes and skins 
+
 
 h2. Introduction
 
-Kineticwing IDE Resources like Themes, Settings, Database, Flavours etc
+p. Kineticwing IDE Resources like Themes, Settings, Database, Flavours etc
 
-p. "Mirror":https://bitbucket.org/codeyash/resources/
+p. "Bitbucket Mirror":https://bitbucket.org/codeyash/resources/
 
 
 h2. License

@@ -7,11 +7,12 @@
                     "Play and Have fun :)"
 
                 ],
-    "ThemeName" : "default" ,
+    "ThemeName" : "color" ,
+    "Extension" : ".png" ,
     "Layout" :
         {
             "1_ToolBar" : "actionCut, actionCopy, actionPaste, actionZoomIn, actionZoomOut, actionZoomReset, menuFlavours,actionAbout",
-            "2_ToolBar" : "menuNew, actionOpen, menuSave, Seperator, actionSelectAll, Seperator,  actionUndo,actionRedo, Seperator, actionFind, actionFindFiles, actionFindNext, actionFindPrevious, actionReplace,actionFindInCurrent",
+            "2_ToolBar" : "menuNew, actionOpen, menuSave, Space, actionSelectAll, Seperator,  actionUndo,actionRedo, Seperator, actionFind, actionFindFiles, actionFindNext, actionFindPrevious, actionReplace,actionFindInCurrent",
             "3_ToolBar" : "actionNewProject, actionOpenProject, actionClearAll, actionClearAllProjects",
             "4_ToolBar" : "actionDuplicateLineUp, actionDuplicateLineDown, actionCopyLine, actionCutLine, actionMoveLineUp, actionMoveLineDown",
             "5_ToolBar" : "actionToggleBookmark, actionNextBookmarkCurrent, actionPreviousBookmarkCurrent, actionNextBookmark, actionPreviousBookmark",
