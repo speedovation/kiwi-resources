@@ -7,15 +7,15 @@
                     "Play and Have fun :)"
 
                 ],
-    "theme-name" : "default" ,
+    "ThemeName" : "default" ,
     "Layout" :
         {
-            "1_ToolBar" : "actionCut|cut, actionCopy|copy, actionPaste|clipboard, actionZoomIn|searchplus, actionZoomOut|searchminus, actionZoomReset|search, menuFlavours,actionAbout",
-            "2_ToolBar" : "menuNew|fileo, actionOpen|folderopeno, menuSave|save, Seperator, actionSelectAll, Seperator,  actionUndo,actionRedo, Seperator, actionFind, actionFindFiles, actionFindNext, actionFindPrevious, actionReplace,actionFindInCurrent",
-            "3_ToolBar" : "actionNewProject|file, actionOpenProject|folderopen, actionClearAll|eraser, actionClearAllProjects",
-            "4_ToolBar" : "actionDuplicateLineUp|arrowcircleup, actionDuplicateLineDown|arrowcircledown, actionCopyLine, actionCutLine, actionMoveLineUp|arrowcircleoup, actionMoveLineDown|arrowcircleodown",
-            "5_ToolBar" : "actionToggleBookmark|bookmarko, actionNextBookmarkCurrent|bookmark, actionPreviousBookmarkCurrent, actionNextBookmark, actionPreviousBookmark",
-            "6_ToolBar" : "actionExplorer|columns, actionWelcomeScreen|list, actionStatusBar|square, actionShowTab|folder,actionToolbar, actionOutputWindow,actionPreferences"
+            "1_ToolBar" : "actionCut, actionCopy, actionPaste, actionZoomIn, actionZoomOut, actionZoomReset, menuFlavours,actionAbout",
+            "2_ToolBar" : "menuNew, actionOpen, menuSave, Seperator, actionSelectAll, Seperator,  actionUndo,actionRedo, Seperator, actionFind, actionFindFiles, actionFindNext, actionFindPrevious, actionReplace,actionFindInCurrent",
+            "3_ToolBar" : "actionNewProject, actionOpenProject, actionClearAll, actionClearAllProjects",
+            "4_ToolBar" : "actionDuplicateLineUp, actionDuplicateLineDown, actionCopyLine, actionCutLine, actionMoveLineUp, actionMoveLineDown",
+            "5_ToolBar" : "actionToggleBookmark, actionNextBookmarkCurrent, actionPreviousBookmarkCurrent, actionNextBookmark, actionPreviousBookmark",
+            "6_ToolBar" : "actionExplorer, actionWelcomeScreen, actionStatusBar, actionShowTab,actionToolbar, actionOutputWindow,actionPreferences"
         },
 
     "_comment": "Available menus and actions",
