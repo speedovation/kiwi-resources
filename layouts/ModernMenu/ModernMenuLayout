@@ -7,8 +7,6 @@
                     "Play and Have fun :)"
 
                 ],
-    "ThemeName" : "yusu" ,
-    "Extension" : ".png" ,
     "Layout" :
         {
             "1_ToolBar" : "actionCut, actionCopy, actionPaste, actionZoomIn, actionZoomOut, actionZoomReset, menuFlavours,actionAbout",
