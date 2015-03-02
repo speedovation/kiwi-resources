@@ -1,5 +1,5 @@
 {
     "_Comments" : "In future we will support mix of file extensions for now keep it simple with single type",
-    "ThemeName" : "colored" ,
+    "ThemeName" : "trancy" ,
     "Extension" : "svg" 
 }
