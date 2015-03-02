@@ -5,14 +5,14 @@
 	 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
 <g>
 	<polygon fill="#FFFFFF" points="13.6,15.6 1.4,15.6 1.4,0.4 8.9,0.4 13.6,4.4 	"/>
-	<path fill="#95999B" d="M14,16H1V0h8l5,4.2V16z M1.8,15.2h11.5V4.6L8.8,0.8h-7V15.2z"/>
+	<path fill="#95999B" d="M14,16H1V0h8l5,4.2V16z M1.8,15.2h11.5V4.6L8.8,0.8h-7C1.8,0.8,1.8,15.2,1.8,15.2z"/>
 </g>
 <g>
 	<polygon fill="#95999B" points="13.6,4.9 8.3,4.9 8.3,0.4 9.1,0.4 9.1,4.2 13.6,4.2 	"/>
 </g>
-<rect y="6" fill="#FF9C00" width="15" height="7"/>
+<rect y="6" fill="#1572B6" width="15" height="7"/>
 <g>
-	<path fill="#FFFFFF" d="M2.5,11.1h2.5V12H1.5V7h3.4v0.9H2.5V11.1z"/>
+	<path fill="#FFFFFF" d="M2.5,11.1H5V12H1.5V7h3.4v0.9H2.5V11.1z"/>
 	<path fill="#FFFFFF" d="M5.6,9.9V7H9v0.9H6.6v1.2H9V12H5.6v-0.9h2.5V9.9H5.6z"/>
 	<path fill="#FFFFFF" d="M9.7,9.9V7h3.4v0.9h-2.5v1.2h2.5V12H9.7v-0.9h2.5V9.9H9.7z"/>
 </g>
