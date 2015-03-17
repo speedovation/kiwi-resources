@@ -1,6 +1,8 @@
-<snippet>
-    <content><![CDATA[\$${1:arrayName} = array('$2' => $3${4:,} $0);]]></content>
-    <tabTrigger>array</tabTrigger>
-    <scope>source.php - variable.other.php</scope>
-    <description>$… = array (…)</description>
-</snippet>
+[Info]
+tabTrigger=array
+desc=array (…)
+author=
+license=
+
+[Snippet]
+$${1:arrayName} = array('$2' => $3${4:,} $0);

@@ -1,8 +1,10 @@
-<snippet>
-    <content><![CDATA[elseif (${1:condition}) {
+[Info]
+tabTrigger=elseif
+desc=Insert elseif
+author=
+license=
+
+[Snippet]
+elseif (${1:condition}) {
 	${0:# code...}
-}]]></content>
-    <tabTrigger>elseif</tabTrigger>
-    <scope>source.php</scope>
-    <description>elseif …</description>
-</snippet>
+}

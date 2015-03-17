@@ -4,3 +4,11 @@
     <scope>source.php</scope>
     <description>echo "…"</description>
 </snippet>
+[Info]
+tabTrigger=echo
+desc=Insert echo
+author=
+license=
+
+[Snippet]
+echo "${1:string}"${0};

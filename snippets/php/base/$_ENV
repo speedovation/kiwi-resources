@@ -4,3 +4,11 @@
     <scope>source.php</scope>
     <description>ENV['…']</description>
 </snippet>
+[Info]
+tabTrigger=$-ENV
+desc=Insert $-ENV
+author=
+license=
+
+[Snippet]
+\$_ENV['${1:variable}'

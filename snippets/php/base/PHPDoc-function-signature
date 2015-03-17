@@ -1,12 +1,14 @@
-<snippet>
-    <content><![CDATA[/**
- * ${4:undocumented function}
+[Info]
+tabTrigger=function_doc_sig
+desc=Function Signature
+author=
+license=
+
+[Snippet]
+/**
+ * 
  *
- * @return ${5:void}
- * @author ${PHPDOC_AUTHOR:$TM_FULLNAME}$6
+ * @return 
+ * @author ##FULLNAME##
  **/
-$1function $2($3);$0]]></content>
-    <tabTrigger>doc_s</tabTrigger>
-    <scope>source.php</scope>
-    <description>Function Signature</description>
-</snippet>
+function () { }
