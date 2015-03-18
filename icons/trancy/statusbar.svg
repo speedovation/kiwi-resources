@@ -3,14 +3,16 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
-<rect x="0.4" y="0.6" opacity="0.8" fill="#FFFFFF" enable-background="new    " width="15.2" height="15.2"/>
-<rect x="0.4" y="0.6" opacity="0.8" fill="none" stroke="#000000" stroke-miterlimit="10" enable-background="new    " width="15.2" height="15.2"/>
-<rect x="1.6" y="9.7" opacity="0.3" fill="#D84427" enable-background="new    " width="4.7" height="4.7"/>
-<rect x="6.7" y="9.7" opacity="0.3" fill="#3080C1" enable-background="new    " width="7.8" height="4.7"/>
+<path opacity="0.8" fill="none" stroke="#000000" stroke-miterlimit="10" enable-background="new    " d="M15.3,15.5H0.7
+	c-0.1,0-0.2-0.1-0.2-0.2V1.5c0-0.6,0.4-1,1-1h13c0.6,0,1,0.4,1,1v13.8C15.5,15.4,15.4,15.5,15.3,15.5z"/>
+<path opacity="0.8" fill="#FFFFFF" enable-background="new    " d="M15.4,15.5H0.6c-0.1,0-0.1-0.1-0.1-0.1V1.5c0-0.6,0.4-1,1-1h13
+	c0.6,0,1,0.4,1,1v13.8C15.5,15.4,15.4,15.5,15.4,15.5z"/>
+<rect x="1.6" y="9.5" opacity="0.3" fill="#D84427" enable-background="new    " width="4.7" height="4.7"/>
+<rect x="6.7" y="9.5" opacity="0.3" fill="#3080C1" enable-background="new    " width="7.8" height="4.7"/>
 <g>
-	<path fill="#D84427" d="M6.6,14.7H1.4V9.5h5.2V14.7z M1.9,14.2h4.2V10H1.9V14.2z"/>
+	<path fill="#D84427" d="M6.6,14.5H1.4V9.3h5.2V14.5z M1.9,14h4.2V9.8H1.9V14z"/>
 </g>
 <g opacity="0.8">
-	<path fill="#268BD2" d="M14.7,14.7H6.4V9.5h8.3V14.7z M6.9,14.2h7.3V10H6.9V14.2z"/>
+	<path fill="#268BD2" d="M14.7,14.5H6.4V9.3h8.3V14.5z M6.9,14h7.3V9.8H6.9V14z"/>
 </g>
 </svg>
