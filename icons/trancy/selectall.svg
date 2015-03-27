@@ -3,10 +3,10 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
-<polyline opacity="0.45" points="1.6,5.9 1.6,0.8 8.6,0.8 12.9,4.5 12.9,5.9 "/>
+<polyline opacity="0.15" enable-background="new    " points="1.6,5.9 1.6,0.8 8.6,0.8 12.9,4.5 12.9,5.9 "/>
 <rect x="1.6" y="5.9" opacity="0.8" fill="#FFFFFF" enable-background="new    " width="11.3" height="9.2"/>
 <path opacity="0.8" enable-background="new    " d="M8.7,0.2H0.8v15.7h12.8V4.3L8.7,0.2z M8.8,1.3l3.6,3H8.8V1.3z M1.6,15.1V1H8v4
-	h4.9v10.1C12.9,15.1,1.6,15.1,1.6,15.1z"/>
+	h4.9v10.1H1.6z"/>
 <g opacity="0.8">
 	<rect x="3" y="7.6" width="7.9" height="1"/>
 </g>
