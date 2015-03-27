@@ -3,17 +3,17 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
-<polygon opacity="0.8" fill="#FFFFFF" enable-background="new    " points="14.1,15.6 1.9,15.6 1.9,0.4 9.4,0.4 14.1,4.4 "/>
-<path opacity="0.3" enable-background="new    " d="M9.5,0h-8v16h13V4.2L9.5,0z M9.6,1.1l3.7,3.1H9.6V1.1z M2.3,15.2V0.8h6.5v4.1h5
-	v10.3C13.8,15.2,2.3,15.2,2.3,15.2z"/>
-<rect x="2.3" y="5.8" fill="#DC322F" width="11.5" height="9.4"/>
-<g opacity="0.3">
-	<rect x="3.7" y="7.5" width="8.1" height="1"/>
+<polyline opacity="0.45" points="1.6,5.9 1.6,0.8 8.6,0.8 12.9,4.5 12.9,5.9 "/>
+<rect x="1.6" y="5.9" opacity="0.8" fill="#FFFFFF" enable-background="new    " width="11.3" height="9.2"/>
+<path opacity="0.8" enable-background="new    " d="M8.7,0.2H0.8v15.7h12.8V4.3L8.7,0.2z M8.8,1.3l3.6,3H8.8V1.3z M1.6,15.1V1H8v4
+	h4.9v10.1C12.9,15.1,1.6,15.1,1.6,15.1z"/>
+<g opacity="0.8">
+	<rect x="3" y="7.6" width="7.9" height="1"/>
 </g>
-<g opacity="0.3">
-	<rect x="4.8" y="10" width="5.1" height="1"/>
+<g opacity="0.8">
+	<rect x="4.1" y="10" width="5" height="1"/>
 </g>
-<g opacity="0.3">
-	<rect x="3.6" y="12.7" width="8.3" height="1"/>
+<g opacity="0.8">
+	<rect x="2.9" y="12.7" width="8.1" height="1"/>
 </g>
 </svg>
