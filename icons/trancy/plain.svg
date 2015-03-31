@@ -5,7 +5,7 @@
 	 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
 <polygon opacity="0.8" fill="#FFFFFF" enable-background="new    " points="14.1,15 2.9,15 2.9,1 9.7,1 14.1,4.7 "/>
 <path opacity="0.5" enable-background="new    " d="M9.9,0.2H2.1v15.6h12.7V4.3L9.9,0.2z M10,1.3l3.6,3 M14.1,4.7V15H2.9V1h6.8"/>
-<polygon opacity="0.7" enable-background="new    " points="9.7,4.7 9.7,1 8.9,1 8.9,5.5 9.4,5.5 9.4,5.5 14.1,5.5 14.1,4.7 "/>
+<polygon opacity="0.5" enable-background="new    " points="9.7,4.7 9.7,1 8.9,1 8.9,5.5 9.4,5.5 9.4,5.5 14.1,5.5 14.1,4.7 "/>
 <g opacity="0.8">
 	<rect x="4.5" y="6.5" width="8.1" height="1"/>
 </g>
