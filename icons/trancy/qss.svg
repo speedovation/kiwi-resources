@@ -3,16 +3,15 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
-<polygon opacity="0.8" fill="#FFFFFF" enable-background="new    " points="14.3,15 3.1,15 3.1,1 9.9,1 14.3,4.7 "/>
-<path opacity="0.5" enable-background="new    " d="M10.1,0.2H2.3v15.6H15V4.3L10.1,0.2z M10.2,1.3l3.6,3 M14.3,4.7V15
-	c0,0-11.2,0-11.2,0V1l6.8,0"/>
-<polygon opacity="0.8" points="9.9,4.7 9.9,1 9.1,1 9.1,5.5 9.6,5.5 9.6,5.5 14.3,5.5 14.3,4.7 "/>
+<polygon opacity="0.8" fill="#FFFFFF" points="14.6,15.6 2.4,15.6 2.4,0.4 9.9,0.4 14.6,4.4 "/>
+<path opacity="0.3" d="M10,0H2v16h13V4.2L10,0z M10.1,1.1l3.7,3.1h-3.7V1.1z M2.8,15.2V0.8h6.5v4.1h5v10.3H2.8z"/>
+<rect x="0.1" y="6.4" fill="#51539A" width="15" height="7"/>
 <g>
 	<path fill="#FFFFFF" d="M2.6,12.4h-1v-5h3.5v2.9H2.6V12.4z M2.6,8.3v1.2h1.6V8.3H2.6z"/>
 	<path fill="#FFFFFF" d="M6.7,12.4h-1v-5h1v2.1h1.6V7.4h0.9v5H8.3v-2.1H6.7V12.4z"/>
 	<path fill="#FFFFFF" d="M10.8,12.4h-1v-5h3.4v2.9h-2.5L10.8,12.4L10.8,12.4z M10.8,8.3v1.2h1.6V8.3H10.8z"/>
 </g>
-<rect y="6.4" fill="#80C342" width="14.9" height="7"/>
+<rect x="0.1" y="6.4" fill="#80C342" width="15" height="7"/>
 <g>
 	<path fill="#FFFFFF" d="M4.9,11.8H3.2V8h2.6v3.8H5.5l0.3,0.6H5.2L4.9,11.8z M5.1,11.1V8.7H3.9v2.5h0.6l-0.2-0.5h0.6L5.1,11.1z"/>
 	<path fill="#FFFFFF" d="M6.3,10.2V8h2.6v0.6H7v0.9h1.9v2.2H6.3v-0.6h1.9v-0.9H6.3z"/>

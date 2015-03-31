@@ -5,8 +5,8 @@
 	 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
 <polygon opacity="0.8" fill="#FFFFFF" enable-background="new    " points="14.8,15.7 2.6,15.7 2.6,0.5 10.1,0.5 14.8,4.5 "/>
 <path opacity="0.3" enable-background="new    " d="M10.2,0.1h-8v16h13V4.3L10.2,0.1z M10.3,1.2L14,4.3h-3.7V1.2z M3,15.3V0.9h6.5V5
-	h5v10.3H3z"/>
-<rect x="0.2" y="6.5" fill="#416867" width="15" height="7"/>
+	h5v10.3C14.5,15.3,3,15.3,3,15.3z"/>
+<rect x="0.3" y="6.5" fill="#416867" width="15" height="7"/>
 <g>
 	<path fill="#FFFFFF" d="M2.9,9.9V7.5h2.9v0.7H3.7v1h2.1v2.4H2.9v-0.7H5v-1C5,9.9,2.9,9.9,2.9,9.9z"/>
 	<path fill="#FFFFFF" d="M8.2,11.7H6.4V7.5h2.9v4.2H8.9l0.4,0.7H8.6L8.2,11.7z M8.5,10.9V8.2H7.2V11h0.6l-0.3-0.6h0.7L8.5,10.9z"/>

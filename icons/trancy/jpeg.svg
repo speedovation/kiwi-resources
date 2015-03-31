@@ -3,10 +3,9 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
-<polygon opacity="0.8" fill="#FFFFFF" enable-background="new    " points="13.6,15 2.4,15 2.4,1 9.2,1 13.6,4.7 "/>
-<path opacity="0.5" enable-background="new    " d="M9.5,0.2H1.7v15.6h12.7V4.3L9.5,0.2z M9.6,1.3l3.6,3 M13.6,4.7V15
-	c0,0-11.2,0-11.2,0V1l6.8,0"/>
-<polygon opacity="0.8" points="9.2,4.7 9.2,1 8.5,1 8.5,5.5 9,5.5 9,5.5 13.6,5.5 13.6,4.7 "/>
+<polygon opacity="0.8" fill="#FFFFFF" enable-background="new    " points="14,15.6 1.8,15.6 1.8,0.4 9.3,0.4 14,4.4 "/>
+<path opacity="0.3" enable-background="new    " d="M9.4,0h-8v16h13V4.2L9.4,0z M9.5,1.1l3.7,3.1H9.5V1.1z M2.2,15.2V0.8h6.5v4.1h5
+	v10.3C13.7,15.2,2.2,15.2,2.2,15.2z"/>
 <g>
 	<polygon fill="#2BBA91" points="11.3,9.6 10.7,10.7 9,7.4 7.3,10.9 5.6,7.4 3.1,12.5 6.5,12.5 8.1,12.5 9.8,12.5 11.5,12.5 
 		12.7,12.5 	"/>
