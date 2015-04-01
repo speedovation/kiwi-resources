@@ -5,28 +5,28 @@
 	 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
 <g id="Arrow_10">
 </g>
-<polygon opacity="0.7" fill="#FFFFFF" enable-background="new    " points="15.7,15.6 5.7,15.6 5.7,3.2 11.8,3.2 15.7,6.4 "/>
-<path opacity="0.5" enable-background="new    " d="M11.9,2.9H5.4v13H16V6.3L11.9,2.9z M12,3.8l3,2.5h-3V3.8z M6,15.3V3.5h5.3v3.3
-	h4.1v8.4C15.4,15.3,6,15.3,6,15.3z"/>
+<polygon opacity="0.7" fill="#FFFFFF" enable-background="new    " points="15.3,15.2 5.9,15.2 5.9,3.6 11.6,3.6 15.3,6.6 "/>
+<path opacity="0.5" enable-background="new    " d="M11.8,2.9H5.3v13h10.6V6.3L11.8,2.9z M11.9,3.8l3,2.5h-3V3.8z M5.9,15.3V3.5h5.3
+	v3.3h4.1v8.4C15.3,15.3,5.9,15.3,5.9,15.3z"/>
 <g opacity="0.8">
-	<rect x="7.4" y="8.2" width="6.6" height="0.8"/>
+	<rect x="7.3" y="8.2" width="6.6" height="0.8"/>
 </g>
 <g>
-	<rect x="8.3" y="10.2" opacity="0.8" enable-background="new    " width="4.2" height="0.8"/>
+	<rect x="8.2" y="10.2" opacity="0.8" enable-background="new    " width="4.2" height="0.8"/>
 </g>
 <g opacity="0.8">
-	<rect x="7.3" y="12.4" width="6.8" height="0.8"/>
+	<rect x="7.2" y="12.4" width="6.8" height="0.8"/>
 </g>
-<polygon opacity="0.15" enable-background="new    " points="4.7,2.4 8.9,2.4 6.6,0.4 0.5,0.4 0.5,12.8 4.7,12.8 "/>
+<polygon opacity="0.15" enable-background="new    " points="4.6,2.4 8.8,2.4 6.5,0.4 0.4,0.4 0.4,12.8 4.6,12.8 "/>
 <g>
-	<rect x="2.2" y="5.1" opacity="0.8" enable-background="new    " width="2.5" height="0.8"/>
+	<rect x="2.1" y="5.1" opacity="0.8" enable-background="new    " width="2.5" height="0.8"/>
 </g>
 <g opacity="0.8">
-	<rect x="2.5" y="7.2" width="1.6" height="0.8"/>
+	<rect x="2.4" y="7.2" width="1.6" height="0.8"/>
 </g>
 <g opacity="0.8">
-	<rect x="2.2" y="9.4" width="2.5" height="0.8"/>
+	<rect x="2.1" y="9.4" width="2.5" height="0.8"/>
 </g>
-<path opacity="0.5" enable-background="new    " d="M4.7,12.5c-1.9,0-3.9,0-3.9,0V0.8h5.4v1.6h0.7V1l1.6,1.4h1L6.7,0.1H0.2v13h4.5
+<path opacity="0.5" enable-background="new    " d="M4.6,12.5c-1.9,0-3.9,0-3.9,0V0.8h5.4v1.6h0.7V1l1.6,1.4h1L6.6,0.1H0.1v13h4.5
 	V12.5z"/>
 </svg>
