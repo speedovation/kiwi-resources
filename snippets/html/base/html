@@ -1,0 +1,16 @@
+[Info]
+tabTrigger=html
+desc=Html
+author=
+license=
+
+[Snippet]
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{EDITOR_CURSOR}}</title>
+</head>
+<body>
+
+</body>
+</html>

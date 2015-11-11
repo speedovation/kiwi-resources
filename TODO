@@ -1,0 +1,62 @@
+
+
+Send request for parsing to PHP
+
+It can be folder path or filename
+
+Parse and store json objects
+
+Task is done for PHP plugins
+
+Send done signal to IDE There should be some mechanism for callback in API of IDE
+
+For IDE
+    Sqlite DB contains 
+        Standard functions
+        Standard variables
+        Constants
+
+        get_defined_functions();
+        get_defined_constants
+        get_loaded_extensions()
+        get_loaded_vars()
+
+    Json Files
+        Current projects classes's AST
+        Each file represents single class
+        JSON data we add path and class name
+
+
+{
+    "namespace": "",
+    "classes": {
+        "classname": {
+            "functionname": {
+                "anotations": {},
+                "parameters": {}
+            }
+        }
+    }
+}
+
+// This 
+
+{
+    "classes": {
+        "class": {
+            "namespace": "",
+            "functions": {
+                "functionname": {
+                    "doccomment": "",
+                    "anotations": {},
+                    "parameters": {}
+                },
+                "functionname_": {
+                    "doccomment": "",
+                    "anotations": {},
+                    "parameters": {}
+                }
+            }
+        }
+    }
+}
