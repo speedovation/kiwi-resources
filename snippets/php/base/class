@@ -5,11 +5,11 @@ author=
 license=
 
 [Snippet]
-class ${2:ClassName}${3: extends ${4:AnotherClass}}
+class ClassName: extends AnotherClass
 {
-	$5
-	function ${6:__construct}(${7:argument})
+	
+	function __construct($argument)
 	{
-		${0:# code...}
+		
 	}
 }
