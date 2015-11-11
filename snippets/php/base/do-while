@@ -5,6 +5,6 @@ author=
 license=
 
 [Snippet]
-$_do-while['${1:do {
-	${0:# code...}
-} while (${1:$a <= 10});}']
+do {
+
+} while ($a <= 10)
