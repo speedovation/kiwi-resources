@@ -1,6 +1,8 @@
-<snippet>
-    <content><![CDATA[\$_POST['${1:variable}']]]></content>
-    <tabTrigger>$_</tabTrigger>
-    <scope>source.php</scope>
-    <description>POST['…']</description>
-</snippet>
+[Info]
+tabTrigger=$_POST
+desc=POST['…']
+author=
+license=
+
+[Snippet]
+$_POST['']
