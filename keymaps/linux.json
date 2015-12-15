@@ -1,476 +1,476 @@
 [
     {
+        "command": "NextBookmarkCurrent",
         "keys": [
             "F2"
-        ],
-        "command": "NextBookmarkCurrent"
+        ]
     },
     {
+        "command": "PreviousBookmarkCurrent",
         "keys": [
             "Shift+F2"
-        ],
-        "command": "PreviousBookmarkCurrent"
+        ]
     },
     {
+        "command": "PreviousDocument",
         "keys": [
             ""
-        ],
-        "command": "PreviousDocument"
+        ]
     },
     {
+        "command": "ToggleBookmark",
         "keys": [
             "Ctrl+F2"
-        ],
-        "command": "ToggleBookmark"
+        ]
     },
     {
+        "command": "CaseSensitive",
         "keys": [
             ""
-        ],
-        "command": "CaseSensitive"
+        ]
     },
     {
+        "command": "Find",
         "keys": [
             "Ctrl+Shift+F"
-        ],
-        "command": "Find"
+        ]
     },
     {
+        "command": "ExpandAll",
         "keys": [
             "Alt+1"
-        ],
-        "command": "ExpandAll"
+        ]
     },
     {
+        "command": "FindInCurrentDocument",
         "keys": [
             ""
-        ],
-        "command": "FindInCurrentDocument"
+        ]
     },
     {
+        "command": "FindNext",
         "keys": [
             "F3"
-        ],
-        "command": "FindNext"
+        ]
     },
     {
+        "command": "FindPrevious",
         "keys": [
             "Shift+F3"
-        ],
-        "command": "FindPrevious"
+        ]
     },
     {
+        "command": "RegularExpressions",
         "keys": [
             ""
-        ],
-        "command": "RegularExpressions"
+        ]
     },
     {
+        "command": "Replace",
         "keys": [
             "Ctrl+Shift+H"
-        ],
-        "command": "Replace"
+        ]
     },
     {
+        "command": "ReplaceAll",
         "keys": [
             ""
-        ],
-        "command": "ReplaceAll"
+        ]
     },
     {
+        "command": "ReplaceNext",
         "keys": [
             "F4"
-        ],
-        "command": "ReplaceNext"
+        ]
     },
     {
+        "command": "ReplacePrevious",
         "keys": [
-            "Shift+F4"
-        ],
-        "command": "ReplacePrevious"
+            "Shift+F5"
+        ]
     },
     {
-        "keys": [
-            ""
-        ],
-        "command": "WholeWords"
-    },
-    {
+        "command": "WholeWords",
         "keys": [
             ""
-        ],
-        "command": "FontName"
+        ]
     },
     {
+        "command": "FontName",
         "keys": [
             ""
-        ],
-        "command": "FontSize"
+        ]
     },
     {
+        "command": "FontSize",
         "keys": [
             ""
-        ],
-        "command": "CursorWidth"
+        ]
     },
     {
+        "command": "CursorWidth",
         "keys": [
             ""
-        ],
-        "command": "AcceptDrop"
+        ]
     },
     {
+        "command": "AcceptDrop",
+        "keys": [
+            ""
+        ]
+    },
+    {
+        "command": "ShowTabsSpaces",
         "keys": [
             "Ctrl+Shift+T"
-        ],
-        "command": "ShowTabsSpaces"
+        ]
     },
     {
+        "command": "HighlightCurrentLine",
         "keys": [
             ""
-        ],
-        "command": "HighlightCurrentLine"
+        ]
     },
     {
+        "command": "HighlightedTextColor",
         "keys": [
             ""
-        ],
-        "command": "HighlightedTextColor"
+        ]
     },
     {
+        "command": "HighlightedBackgroundColor",
         "keys": [
             ""
-        ],
-        "command": "HighlightedBackgroundColor"
+        ]
     },
     {
+        "command": "NoOfSpacesInTab",
         "keys": [
             ""
-        ],
-        "command": "NoOfSpacesInTab"
+        ]
     },
     {
+        "command": "CopyLine",
         "keys": [
             "Ctrl+Shift+C"
-        ],
-        "command": "CopyLine"
+        ]
     },
     {
+        "command": "CopyLineUp",
         "keys": [
             "Ctrl+Alt+Up"
-        ],
-        "command": "CopyLineUp"
+        ]
     },
     {
+        "command": "CopyLineDown",
         "keys": [
             "Ctrl+Alt+Down"
-        ],
-        "command": "CopyLineDown"
+        ]
     },
     {
+        "command": "CutLine",
         "keys": [
             "Ctrl+Shift+X"
-        ],
-        "command": "CutLine"
+        ]
     },
     {
+        "command": "DeleteLine",
         "keys": [
             "Ctrl+D"
-        ],
-        "command": "DeleteLine"
+        ]
     },
     {
+        "command": "InsertLineAboveCurrentLine",
         "keys": [
             "Alt+Shift+Up"
-        ],
-        "command": "InsertLineAboveCurrentLine"
+        ]
     },
     {
+        "command": "InsertLineBelowCurrentLine",
         "keys": [
             "Alt+Shift+Down"
-        ],
-        "command": "InsertLineBelowCurrentLine"
+        ]
     },
     {
+        "command": "MoveLineDown",
         "keys": [
             "Alt+Down"
-        ],
-        "command": "MoveLineDown"
+        ]
     },
     {
+        "command": "MoveLineUp",
         "keys": [
             "Alt+Up"
-        ],
-        "command": "MoveLineUp"
+        ]
     },
     {
+        "command": "ZoomOut",
         "keys": [
             "Ctrl+-"
-        ],
-        "command": "ZoomOut"
+        ]
     },
     {
+        "command": "ZoomIn",
         "keys": [
             "Ctrl++"
-        ],
-        "command": "ZoomIn"
+        ]
     },
     {
+        "command": "ZoomReset",
         "keys": [
             "Ctrl+0"
-        ],
-        "command": "ZoomReset"
+        ]
     },
     {
+        "command": "Fold",
         "keys": [
             ""
-        ],
-        "command": "Fold"
+        ]
     },
     {
+        "command": "Unfold",
         "keys": [
             ""
-        ],
-        "command": "Unfold"
+        ]
     },
     {
+        "command": "LowercaseSelection",
         "keys": [
             ""
-        ],
-        "command": "LowercaseSelection"
+        ]
     },
     {
+        "command": "UppercaseSelection",
         "keys": [
             ""
-        ],
-        "command": "UppercaseSelection"
+        ]
     },
     {
+        "command": "CompleteThis",
         "keys": [
             ""
-        ],
-        "command": "CompleteThis"
+        ]
     },
     {
+        "command": "QuickFix",
         "keys": [
             ""
-        ],
-        "command": "QuickFix"
+        ]
     },
     {
+        "command": "SelectBlockDown",
         "keys": [
             ""
-        ],
-        "command": "SelectBlockDown"
+        ]
     },
     {
+        "command": "SelectBlockUp",
         "keys": [
             ""
-        ],
-        "command": "SelectBlockUp"
+        ]
     },
     {
+        "command": "SelectEncoding",
         "keys": [
             ""
-        ],
-        "command": "SelectEncoding"
+        ]
     },
     {
+        "command": "ToggleComments",
         "keys": [
             "Ctrl+/"
-        ],
-        "command": "ToggleComments"
+        ]
     },
     {
+        "command": "Plain",
         "keys": [
             "Ctrl+N"
-        ],
-        "command": "Plain"
+        ]
     },
     {
+        "command": "CSS",
         "keys": [
             "Ctrl+N+1"
-        ],
-        "command": "CSS"
+        ]
     },
     {
+        "command": "Open",
         "keys": [
             "Ctrl+O"
-        ],
-        "command": "Open"
+        ]
     },
     {
+        "command": "SaveAs",
         "keys": [
             "Shift+Ctrl+S"
-        ],
-        "command": "SaveAs"
+        ]
     },
     {
+        "command": "SaveCurrent",
         "keys": [
             "Ctrl+S"
-        ],
-        "command": "SaveCurrent"
+        ]
     },
     {
+        "command": "SaveAll",
         "keys": [
             "Alt+S"
-        ],
-        "command": "SaveAll"
+        ]
     },
     {
+        "command": "SaveAsPDF",
         "keys": [
             ""
-        ],
-        "command": "SaveAsPDF"
+        ]
     },
     {
+        "command": "Exit",
         "keys": [
             "Ctrl+Q"
-        ],
-        "command": "Exit"
+        ]
     },
     {
+        "command": "CloseCurrent",
         "keys": [
             "Ctrl+W"
-        ],
-        "command": "CloseCurrent"
+        ]
     },
     {
+        "command": "CloseAll",
         "keys": [
             "Ctrl+Shift+W"
-        ],
-        "command": "CloseAll"
+        ]
     },
     {
+        "command": "Print",
         "keys": [
             "Alt+P"
-        ],
-        "command": "Print"
+        ]
     },
     {
+        "command": "Cut",
         "keys": [
             "Ctrl+X"
-        ],
-        "command": "Cut"
+        ]
     },
     {
+        "command": "Back",
         "keys": [
             "Alt+Left"
-        ],
-        "command": "Back"
+        ]
     },
     {
+        "command": "Forward",
         "keys": [
             "Alt+Right"
-        ],
-        "command": "Forward"
+        ]
     },
     {
+        "command": "Copy",
         "keys": [
             "Ctrl+C"
-        ],
-        "command": "Copy"
+        ]
     },
     {
+        "command": "Paste",
         "keys": [
             "Ctrl+V"
-        ],
-        "command": "Paste"
+        ]
     },
     {
+        "command": "SelectAll",
         "keys": [
             "Ctrl+A"
-        ],
-        "command": "SelectAll"
+        ]
     },
     {
+        "command": "Undo",
         "keys": [
             "Ctrl+Z"
-        ],
-        "command": "Undo"
+        ]
     },
     {
+        "command": "Redo",
         "keys": [
             "Ctrl+Y"
-        ],
-        "command": "Redo"
+        ]
     },
     {
+        "command": "ToggleAllFold",
         "keys": [
             "Ctrl+T"
-        ],
-        "command": "ToggleAllFold"
+        ]
     },
     {
+        "command": "FindInCurrent",
         "keys": [
             "Ctrl+F"
-        ],
-        "command": "FindInCurrent"
+        ]
     },
     {
+        "command": "NextDocument",
         "keys": [
             ""
-        ],
-        "command": "NextDocument"
+        ]
     },
     {
+        "command": "DistrFreeMode",
         "keys": [
             "Shift+F11"
-        ],
-        "command": "DistrFreeMode"
+        ]
     },
     {
+        "command": "Fullscreen",
         "keys": [
             "F11"
-        ],
-        "command": "Fullscreen"
+        ]
     },
     {
+        "command": "WordWrap",
         "keys": [
             "Alt+W"
-        ],
-        "command": "WordWrap"
+        ]
     },
     {
+        "command": "Indent",
         "keys": [
             "Tab"
-        ],
-        "command": "Indent"
+        ]
     },
     {
+        "command": "Unident",
         "keys": [
             "Shift+Tab"
-        ],
-        "command": "Unident"
+        ]
     },
     {
+        "command": "DuplicateLineUp",
         "keys": [
             "Alt+Shift+Up"
-        ],
-        "command": "DuplicateLineUp"
+        ]
     },
     {
+        "command": "DuplicateLineDown",
         "keys": [
             "Alt+Shift+Down"
-        ],
-        "command": "DuplicateLineDown"
+        ]
     },
     {
+        "command": "MenuBar",
         "keys": [
             "Alt+M"
-        ],
-        "command": "MenuBar"
+        ]
     },
     {
+        "command": "GoToLine",
         "keys": [
             "Ctrl+G"
-        ],
-        "command": "GoToLine"
+        ]
     },
     {
+        "command": "WelcomeScreen",
         "keys": [
             "F6"
-        ],
-        "command": "WelcomeScreen"
+        ]
     }
 ]
