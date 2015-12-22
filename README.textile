@@ -15,15 +15,15 @@ h3. First time
 
 p. Clone and Init Submodule
 
-    git clone git@github.com:speedovation/kiwi-resources.git resources
-    git submodule init
+bc. git clone git@github.com:speedovation/kiwi-resources.git resources
+git submodule init
 
 
 h3. Rest
 
 p. During development just pull and update submodule
 
-    git pull --recurse-submodules  && git submodule update --recursive
+bc. git pull --recurse-submodules  && git submodule update --recursive
 
 
 h2. License
