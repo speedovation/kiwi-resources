@@ -9,6 +9,22 @@ p. Kineticwing IDE Resources like Themes, Settings, Database, Flavours etc
 
 p. "Bitbucket Mirror":https://bitbucket.org/codeyash/resources/
 
+h2. Development
+
+h3. First time
+
+p. Clone and Init Submodule
+
+bc. git clone git@github.com:speedovation/kiwi-resources.git resources
+git submodule init
+
+
+h3. Rest
+
+p. During development just pull and update submodule
+
+bc. git pull --recurse-submodules  && git submodule update --recursive
+
 
 h2. License
 
