@@ -1,12 +1,16 @@
 [submodule "flavours/php"]
 	path = flavours/php
 	url = git@github.com:speedovation/kiwi-php-plugins.git
+	branch = master
 [submodule "flavours/node"]
 	path = flavours/node
 	url = git@github.com:speedovation/kiwi-node-plugins.git
+	branch = master
 [submodule "skins"]
 	path = skins
 	url = git@github.com:speedovation/kiwi-skins.git
+	branch = master
 [submodule "colorschemes"]
 	path = colorschemes
 	url = git@github.com:speedovation/kiwi-color-schemes.git
+	branch = master
