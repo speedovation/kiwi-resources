@@ -1,3 +1,11 @@
+[Info]
+tabTrigger=class
+desc=Class definition
+author=
+license=
+
+
+[Snippet]
 <snippet>
     <content><![CDATA[return true;$0]]></content>
     <tabTrigger>ret1</tabTrigger>

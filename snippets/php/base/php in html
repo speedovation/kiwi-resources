@@ -1,9 +1,10 @@
-<snippet>
-    <content><![CDATA[?>
-$0
-<?${TM_PHP_OPEN_TAG:php}]]>
-    </content>
-    <tabTrigger>php</tabTrigger>
-    <scope>source.php</scope>
-    <description>?&gt; … &lt;?php</description>
-</snippet>
+[Info]
+tabTrigger=php
+desc=?&gt; … &lt;?php
+author=
+license=
+
+
+[Snippet]
+<?php
+

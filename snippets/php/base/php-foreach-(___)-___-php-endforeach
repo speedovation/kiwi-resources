@@ -1,3 +1,11 @@
+[Info]
+tabTrigger=class
+desc=Class definition
+author=
+license=
+
+
+[Snippet]
 <snippet>
     <content><![CDATA[<?${TM_PHP_OPEN_TAG:php} foreach (\$${1:variable} as \$${2:key}${3: => \$${4:value}}): ?>
 	${0}
