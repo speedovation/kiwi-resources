@@ -2,17 +2,18 @@
 	"_comments" : " It will load only ttf files which are unders fonts. You can create any more nodes like disabled to keep track all fonts. Don't try to load too many",
 	
 	"fonts" :  [
-        "dejavu-fonts-ttf-2.34/ttf/DejaVuSansMono.ttf",
-        "dejavu-fonts-ttf-2.34/ttf/DejaVuSansMono-Bold.ttf",					
-        "source-code-pro-1.017R/TTF/SourceCodePro-Bold.ttf",					
-        "source-code-pro-1.017R/TTF/SourceCodePro-Regular.ttf",
-        "source-code-pro-1.017R/TTF/SourceCodePro-Semibold.ttf",
-        "source-code-pro-1.017R/TTF/SourceCodePro-Light.ttf"
+        "dejavu-fonts-ttf-2.35/ttf/DejaVuSansMono.ttf",
+        "dejavu-fonts-ttf-2.35/ttf/DejaVuSansMono-Bold.ttf",
+        "dejavu-sans-ttf-2.35/ttf/DejaVuSans.ttf",					
+        "source-code-pro-2.010R-ro-1.030R-it/TTF/SourceCodePro-Bold.ttf",					
+        "source-code-pro-2.010R-ro-1.030R-it/TTF/SourceCodePro-Regular.ttf",
+        "source-code-pro-2.010R-ro-1.030R-it/TTF/SourceCodePro-Semibold.ttf",
+        "source-code-pro-2.010R-ro-1.030R-it/TTF/SourceCodePro-Light.ttf",
+        "open-sans-1.4.2/fonts/Regular/OpenSans-Regular.ttf",
+		"open-sans-1.4.2/fonts/Italic/OpenSans-Italic.ttf",
+		"open-sans-1.4.2/fonts/Bold/OpenSans-Bold.ttf"
 			],
 	"disabled" : [
-		"dejavu-fonts-ttf-2.34/ttf/DejaVuSansMono-BoldOblique.ttf",
-	    "dejavu-fonts-ttf-2.34/ttf/DejaVuSansMono-Oblique.ttf",
-	    "source-code-pro-1.017R/TTF/SourceCodePro-Black.ttf",
-	    "source-code-pro-1.017R/TTF/SourceCodePro-ExtraLight.ttf"
+		
 	]		
 }
