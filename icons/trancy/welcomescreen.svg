@@ -4,11 +4,11 @@
 	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 <g>
 	<g>
-		<path style="fill:#010002;" d="M0,3v26h32V3H0z M30,27H2V7h28V27z"/>
-		<rect x="18" y="11" style="fill:#010002;" width="10" height="2"/>
-		<rect x="18" y="15" style="fill:#010002;" width="10" height="2"/>
-		<rect x="18" y="19" style="fill:#010002;" width="6" height="2"/>
-		<rect x="4" y="11" style="fill:#010002;" width="10" height="10"/>
+		<path style="fill:#666;" d="M0,3v26h32V3H0z M30,27H2V7h28V27z"/>
+		<rect x="18" y="11" style="fill:#666;" width="10" height="2"/>
+		<rect x="18" y="15" style="fill:#666;" width="10" height="2"/>
+		<rect x="18" y="19" style="fill:#666;" width="6" height="2"/>
+		<rect x="4" y="11" style="fill:#666;" width="10" height="10"/>
 	</g>
 </g>
 <g>
