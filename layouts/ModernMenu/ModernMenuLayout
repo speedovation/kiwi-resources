@@ -4,17 +4,34 @@
                     "JSON must be valid. Use online versions to check and validate",
                     "Available menus and actions can be added into any order in any toolbar.",
                     "Create new toolbars and append or insert in current order. 1_, 2_ shows the position of toolbar. ",
-                    "Play and Have fun :)"
+                    "Play and Have fun :) Seperator,"
 
                 ],
     "Layout" :
         {
-            "1_ToolBar" : "actionCut, actionCopy, actionPaste, actionZoomIn, actionZoomOut, actionZoomReset, menuFlavours,actionAbout",
-            "2_ToolBar" : "menuNew, actionOpen, menuSave, Space, actionSelectAll, Seperator,  actionUndo,actionRedo, Seperator, actionFind, actionFindFiles, actionFindNext, actionFindPrevious, actionReplace,actionFindInCurrent",
-            "3_ToolBar" : "actionNewProject, actionOpenProject, actionClearAll, actionClearAllProjects",
-            "4_ToolBar" : "actionDuplicateLineUp, actionDuplicateLineDown, actionCopyLine, actionCutLine, actionMoveLineUp, actionMoveLineDown",
-            "5_ToolBar" : "actionToggleBookmark, actionNextBookmarkCurrent, actionPreviousBookmarkCurrent, actionNextBookmark, actionPreviousBookmark",
-            "6_ToolBar" : "actionExplorer, actionWelcomeScreen, actionStatusBar, actionShowTab,actionToolbar, actionOutputWindow,actionPreferences"
+            "1_ToolBar" : [ "menuNew" ,  "actionOpen", "actionSaveCurrent", "actionSaveAs", "actionSaveAll", "actionSaveAsPDF", "actionCloseCurrent",  "actionCloseOthers", "actionCloseAll", "actionNewWindow", "actionCloseWindow", "actionExit" ],
+            
+            "2_ToolBar" : [ "actionCut", "actionCopy"," actionPaste", "actionSelectAll","actionRedo", "actionRedo", "actionWordWrap", "actionBack", "actionForward", "actionZoomIn", "actionZoomOut", "actionZoomReset", "actionCleanWhitespaces", "actionToggleComments"],
+            
+            "3_ToolBar" : ["actionToggleBookmark", "actionNextBookmarkCurrent", "actionPreviousBookmarkCurrent", "actionNextBookmark", "actionPreviousBookmark"],
+            
+             "5_ToolBar" :[ "actionDuplicateLineUp", "actionDuplicateLineDown", "actionCopyLine", "actionCutLine", "actionMoveLineUp", "actionMoveLineDown"],
+            
+            "5_ToolBar" : ["actionFullscreen", "actionDistractionFreeMode"," actionToolbar", "actionLeftExplorer", "actionRightExplorer","actionBreadcrumbs", "actionShowTab", "actionStatusBar", "actionOutputWindow", "actionMenuBar", "actionWelcomeScreen", "actionPreferences"],
+        
+           "6_ToolBar" : [ "menuLineOperations", "menuCaseConversion", "menuFold", "menuBookmarkNavigation", "menuShowWhitespaces", "actionGoToLine"],
+        
+        
+           "7_ToolBar" : [   "actionFind","actionFindInCurrent", "find in opened files", "find in projects ","actionFindFiles", "actionFindNext", "actionFindPrevious", "find all", "actionReplace ","replace next", "replace previous ","replace all"],
+        
+          "8_ToolBar" : [   "actionNewProject", "actionOpenProject", "menuSwitchProject", "menuCloseProject", "actionSessionManager", "actionSaveSession"],
+               
+                        
+            "9_ToolBar" : ["menuFlavours","actionAbout"]
+          
+           
+            
+            
         },
 
     "_comment": "Available menus and actions",
