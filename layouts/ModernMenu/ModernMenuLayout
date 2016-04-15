@@ -18,7 +18,7 @@
         [
             "actionCut",
             "actionCopy",
-            " actionPaste",
+            "actionPaste",
             "actionSelectAll",
             "actionRedo",
             "actionRedo",
@@ -71,16 +71,16 @@
         [
             "actionFind",
             "actionFindInCurrent",
-            "find in opened files",
-            "find in projects ",
+            "actionFindInOpenedFiles",
+            "actionFindInProjects",
             "actionFindFiles",
             "actionFindNext",
             "actionFindPrevious",
-            "find all",
-            "actionReplace ",
-            "replace next",
-            "replace previous ",
-            "replace all"
+            "actionFindAll",
+            "actionReplace",
+            "actionReplaceNext",
+            "actionFindPrevious",
+            "actionReplaceAll"
         ],
         [
             "actionNewProject",
