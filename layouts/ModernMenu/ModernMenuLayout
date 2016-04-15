@@ -1,42 +1,101 @@
 {
-    "_comment" : [
-                    "Whitespace will be ignored. After any changes KiWi needs restart.",
-                    "JSON must be valid. Use online versions to check and validate",
-                    "Available menus and actions can be added into any order in any toolbar.",
-                    "Create new toolbars and append or insert in current order. 1_, 2_ shows the position of toolbar. ",
-                    "Play and Have fun :) Seperator,"
-
-                ],
-    "Layout" :
-        {
-            "1_ToolBar" : [ "menuNew" ,  "actionOpen", "actionSaveCurrent", "actionSaveAs", "actionSaveAll", "actionSaveAsPDF", "actionCloseCurrent",  "actionCloseOthers", "actionCloseAll", "actionNewWindow", "actionCloseWindow", "actionExit" ],
-            
-            "2_ToolBar" : [ "actionCut", "actionCopy"," actionPaste", "actionSelectAll","actionRedo", "actionRedo", "actionWordWrap", "actionBack", "actionForward", "actionZoomIn", "actionZoomOut", "actionZoomReset", "actionCleanWhitespaces", "actionToggleComments"],
-            
-            "3_ToolBar" : ["actionToggleBookmark", "actionNextBookmarkCurrent", "actionPreviousBookmarkCurrent", "actionNextBookmark", "actionPreviousBookmark"],
-            
-             "5_ToolBar" :[ "actionDuplicateLineUp", "actionDuplicateLineDown", "actionCopyLine", "actionCutLine", "actionMoveLineUp", "actionMoveLineDown"],
-            
-            "5_ToolBar" : ["actionFullscreen", "actionDistractionFreeMode"," actionToolbar", "actionLeftExplorer", "actionRightExplorer","actionBreadcrumbs", "actionShowTab", "actionStatusBar", "actionOutputWindow", "actionMenuBar", "actionWelcomeScreen", "actionPreferences"],
-        
-           "6_ToolBar" : [ "menuLineOperations", "menuCaseConversion", "menuFold", "menuBookmarkNavigation", "menuShowWhitespaces", "actionGoToLine"],
-        
-        
-           "7_ToolBar" : [   "actionFind","actionFindInCurrent", "find in opened files", "find in projects ","actionFindFiles", "actionFindNext", "actionFindPrevious", "find all", "actionReplace ","replace next", "replace previous ","replace all"],
-        
-          "8_ToolBar" : [   "actionNewProject", "actionOpenProject", "menuSwitchProject", "menuCloseProject", "actionSessionManager", "actionSaveSession"],
-               
-                        
-            "9_ToolBar" : ["menuFlavours","actionAbout"]
-          
-           
-            
-            
-        },
-
     "_comment": "Available menus and actions",
-    "options" : 
-    [
+    "Layout": [
+        [
+            "menuNew",
+            "actionOpen",
+            "actionSaveCurrent",
+            "actionSaveAs",
+            "actionSaveAll",
+            "actionSaveAsPDF",
+            "actionCloseCurrent",
+            "actionCloseOthers",
+            "actionCloseAll",
+            "actionNewWindow",
+            "actionCloseWindow",
+            "actionExit"
+        ],
+        [
+            "actionCut",
+            "actionCopy",
+            " actionPaste",
+            "actionSelectAll",
+            "actionRedo",
+            "actionRedo",
+            "actionWordWrap",
+            "actionBack",
+            "actionForward",
+            "actionZoomIn",
+            "actionZoomOut",
+            "actionZoomReset",
+            "actionCleanWhitespaces",
+            "actionToggleComments"
+        ],
+        [
+            "actionToggleBookmark",
+            "actionNextBookmarkCurrent",
+            "actionPreviousBookmarkCurrent",
+            "actionNextBookmark",
+            "actionPreviousBookmark"
+        ],
+        [
+            "actionDuplicateLineUp",
+            "actionDuplicateLineDown",
+            "actionCopyLine",
+            "actionCutLine",
+            "actionMoveLineUp",
+            "actionMoveLineDown"
+        ],
+        [
+            "actionFullscreen",
+            "actionDistractionFreeMode",
+            " actionToolbar",
+            "actionLeftExplorer",
+            "actionRightExplorer",
+            "actionBreadcrumbs",
+            "actionShowTab",
+            "actionStatusBar",
+            "actionOutputWindow",
+            "actionMenuBar",
+            "actionWelcomeScreen",
+            "actionPreferences"
+        ],
+        [
+            "menuLineOperations",
+            "menuCaseConversion",
+            "menuFold",
+            "menuBookmarkNavigation",
+            "menuShowWhitespaces",
+            "actionGoToLine"
+        ],
+        [
+            "actionFind",
+            "actionFindInCurrent",
+            "find in opened files",
+            "find in projects ",
+            "actionFindFiles",
+            "actionFindNext",
+            "actionFindPrevious",
+            "find all",
+            "actionReplace ",
+            "replace next",
+            "replace previous ",
+            "replace all"
+        ],
+        [
+            "actionNewProject",
+            "actionOpenProject",
+            "menuSwitchProject",
+            "menuCloseProject",
+            "actionSessionManager",
+            "actionSaveSession"
+        ],
+        [
+            "menuFlavours",
+            "actionAbout"
+        ]
+    ],
+    "options": [
         "Space",
         "Seperator",
         "actionHide_project",
@@ -189,6 +248,6 @@
         "menuSearch",
         "menuJavaScript",
         "menuExtra",
-        "menuFlavours" 
+        "menuFlavours"
     ]
 }
