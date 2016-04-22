@@ -1,0 +1,111 @@
+[
+    {
+      "name" : "Go/Continue",
+      "keymap" : "F5" ,
+      "icon" : ""
+    },
+
+    {
+      "name" : "Run Without Debugging",
+      "keymap" : "F7" ,
+      "icon" : ""
+    },
+
+    {
+      "name" : "Start Code Profiling",
+      "keymap" : "" ,
+      "icon" : ""
+    },
+    
+    {  
+      "name" : "Stop", 
+      "keymap" : "Shift+F5" ,
+      "icon" : "" 
+    },
+    
+    {  
+      "name" : "Separator"
+    },
+    
+    {  
+      "name" : "Step In", 
+      "keymap" : "F11" ,
+      "icon" : "" 
+    },
+
+    {  
+      "name" : "Step Over", 
+      "keymap" : "F10" ,
+      "icon" : "" 
+    },
+    
+    {  
+      "name" : "Step Out", 
+      "keymap" : "Shift+F11" ,
+      "icon" : "" 
+    },
+
+    {  
+      "name" : "Run to Cursor", 
+      "keymap" : "Shift+F10" ,
+      "icon" : "" 
+    },
+    
+    {  
+      "name" : "Break Now", 
+      "keymap" : "" ,
+      "icon" : "" 
+    },
+    
+    {  
+      "name" : "Start New Session", 
+      "keymap" : "Ctrl+Shift+F5" ,
+      "icon" : "" 
+    },
+    
+    {  
+      "name" : "Detach", 
+      "keymap" : "" ,
+      "icon" : "" 
+    },
+    
+    {  
+      "name" : "Inspect", 
+      "keymap" : "" ,
+      "icon" : "" 
+    },
+    
+    {  
+      "name" : "Separator"
+    },
+    
+    {  
+      "name" : "Disable/Enable/Delete Breakpoint", 
+      "keymap" : "F9" ,
+      "icon" : "" 
+    },
+    
+    {  
+      "name" : "Add/Edit Breakpoint...", 
+      "keymap" : "Shift+F11" ,
+      "icon" : "" 
+    },
+    
+    {  
+      "name" : "Clear All Breakpoints", 
+      "keymap" : "Shift+F11" ,
+      "icon" : "" 
+    },
+    
+    {  
+      "name" : "Separator"
+    },
+    
+    {  
+      "name" : "Start Listening", 
+      "keymap" : "" ,
+      "icon" : "" 
+    }
+
+
+]

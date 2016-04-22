@@ -1,14 +1,10 @@
 [Info]
-tabTrigger=class
-desc=Class definition
+tabTrigger=echo
+desc=&lt;?php echo … ?&gt;
 author=
 license=
 
 
 [Snippet]
-<snippet>
-    <content><![CDATA[<?${TM_PHP_OPEN_TAG_WITH_ECHO:php echo} ${1:\$var} ?>$0]]></content>
-    <tabTrigger>echo</tabTrigger>
-    <scope>text.html - source.php</scope>
-    <description>&lt;?php echo … ?&gt;</description>
-</snippet>
+<?php echo ""; ?>
+   

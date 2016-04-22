@@ -1,14 +1,10 @@
 [Info]
 tabTrigger=class
-desc=Class definition
+desc=&lt;?php echo htmlentities(…) ?&gt;
 author=
 license=
 
 
 [Snippet]
-<snippet>
-    <content><![CDATA[<?${TM_PHP_OPEN_TAG_WITH_ECHO:php echo} htmlentities(${1:\$var}, ENT_QUOTES, 'utf-8') ?>$0]]></content>
-    <tabTrigger>echoh</tabTrigger>
-    <scope>text.html - source.php</scope>
-    <description>&lt;?php echo htmlentities(…) ?&gt;</description>
-</snippet>
+<?PHP echo htmlentities(, ENT_QUOTES, 'utf-8') ?>
+
