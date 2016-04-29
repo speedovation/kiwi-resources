@@ -28,7 +28,7 @@
     },
     
     {  
-      "name" : "Step In", 
+      "name" : "Step Into", 
       "keymap" : "F11" ,
       "icon" : "" 
     },
