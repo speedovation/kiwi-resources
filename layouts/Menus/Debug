@@ -1,13 +1,13 @@
 [
     {
-      "name" : "Go/Continue",
-      "keymap" : "F5" ,
+      "name" : "Run",
+      "keymap" : "F7" ,
       "icon" : ""
     },
 
     {
-      "name" : "Run Without Debugging",
-      "keymap" : "F7" ,
+      "name" : "Debug",
+      "keymap" : "F5" ,
       "icon" : ""
     },
 
@@ -104,7 +104,8 @@
     {  
       "name" : "Start Listening", 
       "keymap" : "" ,
-      "icon" : "" 
+      "icon" : "",
+      "checkable" : true 
     }
 
 
