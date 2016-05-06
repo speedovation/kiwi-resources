@@ -2,19 +2,25 @@
     {
         "command": "NextBookmarkCurrent",
         "keys": [
-            "F2"
+            ""
         ]
     },
     {
         "command": "PreviousBookmarkCurrent",
         "keys": [
-            "Shift+F2"
+            ""
         ]
     },
     {
-        "command": "PreviousDocument",
+        "command": "NextBookmark",
         "keys": [
-            ""
+            "F2"
+        ]
+    },
+    {
+        "command": "PreviousBookmark",
+        "keys": [
+            "Shift+F2"
         ]
     },
     {
